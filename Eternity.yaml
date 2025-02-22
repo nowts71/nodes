@@ -211,7 +211,6 @@ proxies:
   - {name: 16-264-NOWHERE, server: bymdkmpb.whmvmkwuey.store, port: 443, type: vmess, uuid: cbd67747-7aeb-4fa0-bdd9-86d9bfe9a0bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bymdkmpb.whmvmkwuey.store}}, udp: true}
   - {name: 16-265-RELAY, server: visa.com, port: 443, type: vmess, uuid: 0dbf8192-fe63-4ade-9a45-b4647bfb6cce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-266-CN, server: southvip1.pkyun.xyz, port: 58736, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
-  - {name: 16-267-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 1d817435-8ecd-44df-9d03-20081d9a78f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-268-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: bc37d38e-6550-46db-b430-af48ccb4c317, udp: true}
   - {name: 16-269-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: bc37d38e-6550-46db-b430-af48ccb4c317, udp: true}
   - {name: 16-270-CN, server: southvip1.pkyun.xyz, port: 58824, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
@@ -626,6 +625,7 @@ proxies:
   - {name: 17-680-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: b205f0fd-b4ec-48fc-8555-47ef042c2fac, udp: true}
   - {name: 17-681-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1ec52c0d-9869-40d7-9272-02bf5c984415, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-682-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 43e58628-217f-4747-8f79-d1ed8fd0d9c1, udp: true}
+  - {name: 17-683-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 0deadd17-344e-422c-816d-d7a0e9a0bd12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-684-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d9eec717-d80e-4c39-b6c9-6ebfc2d2f2a9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-685-RELAY, server: visa.com, port: 443, type: vmess, uuid: 884fd35b-be21-4ed3-93aa-dd81c3f76b67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-686-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 77aa546d-3271-455d-88c9-bf77fa956783, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -825,7 +825,6 @@ proxy-groups:
       - 16-264-NOWHERE
       - 16-265-RELAY
       - 16-266-CN
-      - 16-267-SG
       - 16-268-CN
       - 16-269-CN
       - 16-270-CN
@@ -1240,6 +1239,7 @@ proxy-groups:
       - 17-680-CN
       - 17-681-NOWHERE
       - 17-682-CN
+      - 17-683-SG
       - 17-684-NOWHERE
       - 17-685-RELAY
       - 17-686-NOWHERE
@@ -1508,6 +1508,7 @@ proxy-groups:
       - 17-653-RELAY
       - 17-663-US
       - 17-673-NOWHERE
+      - 17-683-SG
       - 17-693-RELAY
   - name: 测速4分组
     type: url-test
@@ -1729,7 +1730,6 @@ proxy-groups:
       - 16-237-RELAY
       - 16-247-DE
       - 16-257-SG
-      - 16-267-SG
       - 16-277-CN
       - 16-287-SG
       - 16-297-SG
