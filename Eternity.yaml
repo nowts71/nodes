@@ -590,7 +590,7 @@ proxies:
   - {name: 17-696-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f03bf67a-1817-403b-801a-0db95ba1673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-697-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: ad0ad6b7-222a-4add-9d69-396057075729, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 17-698-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 229558a6-aee1-4f50-b621-10a6a9fe7242, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
-  - {name: 17-898-CN, server: chiyu2.myfczy169.top, port: 39886, type: ss, cipher: chacha20-ietf-poly1305, password: 323e75fb-f5ab-49fb-b604-a90b03ddb138, udp: true}
+  - {name: 17-899-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 979bcd55-5ece-4c45-884f-eae8ee52360c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-926-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 5d65a0ec-6014-4ffc-a818-87aec9875e45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-927-RELAY, server: visa.com, port: 443, type: vmess, uuid: 91484031-14fa-4491-876b-7ae2cad9dabe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-928-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: f73feb0a-194a-4e62-ba22-c698208924b4, udp: true}
@@ -1205,7 +1205,7 @@ proxy-groups:
       - 17-696-DE
       - 17-697-RELAY
       - 17-698-RELAY
-      - 17-898-CN
+      - 17-899-DE
       - 17-926-DE
       - 17-927-RELAY
       - 17-928-CN
@@ -1839,7 +1839,6 @@ proxy-groups:
       - 17-668-DE
       - 17-678-US
       - 17-698-RELAY
-      - 17-898-CN
       - 17-928-CN
       - 17-948-RELAY
       - 17-958-CN
@@ -1904,6 +1903,7 @@ proxy-groups:
       - 17-659-US
       - 17-669-RELAY
       - 17-679-US
+      - 17-899-DE
       - 17-929-US
       - 17-949-US
       - 17-959-CN
