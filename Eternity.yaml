@@ -330,6 +330,7 @@ proxies:
   - {name: 16-398-CN, server: southvip1.pkyun.xyz, port: 58853, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-399-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: d069b76a-a913-4a63-a607-4dd5607b91be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 16-400-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 555f85d6-b81e-4a26-9ff6-5aa4f4eb741a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
+  - {name: 16-401-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: d1d33e1f-53cc-4886-8f89-c5b9b8e91fb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-402-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 8ca31f0a-9560-49ae-a509-6796f4f989a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 16-403-RELAY, server: visa.com, port: 443, type: vmess, uuid: 0d6758f3-3d8a-47e2-958a-17e12e3580a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-404-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 36f6572a-d787-4464-9a6a-9e94a72e1bcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
@@ -365,6 +366,7 @@ proxies:
   - {name: 16-442-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: e3260c52-8c32-4e4a-9f44-951657b29fac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 16-443-RELAY, server: visa.com, port: 443, type: vmess, uuid: b13ff0a5-2891-45f5-b4f7-68c52fed11fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-444-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 72f19539-944e-4c81-b9a3-856d29077080, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
+  - {name: 16-445-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 03db64f1-3da5-44ff-bde1-36ecd5cc2cbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-446-CN, server: southvip1.pkyun.xyz, port: 58809, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-448-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 63d3d48b-f013-4af6-afb6-4adba1f75823, udp: true}
   - {name: 16-449-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 775b81e3-99ae-4ec7-b794-99033a037810, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
@@ -381,6 +383,7 @@ proxies:
   - {name: 16-460-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 6fe1e0de-e934-4f35-b97d-3554a1271581, udp: true}
   - {name: 16-461-CN, server: southvip1.pkyun.xyz, port: 58710, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-462-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: b13ff0a5-2891-45f5-b4f7-68c52fed11fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 16-463-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 758a2ee0-64bc-405f-8aaa-c889b7bcae0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-464-CN, server: southvip1.pkyun.xyz, port: 34401, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-465-CN, server: southvip1.pkyun.xyz, port: 34103, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-466-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 555f85d6-b81e-4a26-9ff6-5aa4f4eb741a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
@@ -592,10 +595,7 @@ proxies:
   - {name: 17-696-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f03bf67a-1817-403b-801a-0db95ba1673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-697-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: ad0ad6b7-222a-4add-9d69-396057075729, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 17-698-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 229558a6-aee1-4f50-b621-10a6a9fe7242, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
-  - {name: 17-906-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 5f95c22e-5976-42ee-bb58-eb0113dca43a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
-  - {name: 17-928-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: f73feb0a-194a-4e62-ba22-c698208924b4, udp: true}
-  - {name: 17-929-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e3f98c6c-5028-4027-8c36-02ea5deeb06b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 17-930-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 285ba99f-cade-46ba-8510-dd7786dff725, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
+  - {name: 17-907-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 349213b4-7c77-4cac-9b8b-5d9196a9c480, udp: true}
   - {name: 17-931-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 318895b2-ee6c-4245-8da2-dd60d27aed3c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-933-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f53845cc-ecc9-4931-8534-14f7a57eb583, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-935-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fce8b0ce-c2be-4f4d-82f7-2a9ce88b9a22, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -945,6 +945,7 @@ proxy-groups:
       - 16-398-CN
       - 16-399-RELAY
       - 16-400-DE
+      - 16-401-RELAY
       - 16-402-RELAY
       - 16-403-RELAY
       - 16-404-US
@@ -980,6 +981,7 @@ proxy-groups:
       - 16-442-RELAY
       - 16-443-RELAY
       - 16-444-US
+      - 16-445-RELAY
       - 16-446-CN
       - 16-448-CN
       - 16-449-DE
@@ -996,6 +998,7 @@ proxy-groups:
       - 16-460-CN
       - 16-461-CN
       - 16-462-SG
+      - 16-463-RELAY
       - 16-464-CN
       - 16-465-CN
       - 16-466-US
@@ -1207,10 +1210,7 @@ proxy-groups:
       - 17-696-DE
       - 17-697-RELAY
       - 17-698-RELAY
-      - 17-906-RELAY
-      - 17-928-CN
-      - 17-929-US
-      - 17-930-RELAY
+      - 17-907-CN
       - 17-931-US
       - 17-933-DE
       - 17-935-US
@@ -1350,6 +1350,7 @@ proxy-groups:
       - 16-371-CN
       - 16-381-CN
       - 16-391-JP
+      - 16-401-RELAY
       - 16-411-CN
       - 16-421-CN
       - 16-431-CN
@@ -1490,6 +1491,7 @@ proxy-groups:
       - 16-423-SG
       - 16-443-RELAY
       - 16-453-RELAY
+      - 16-463-RELAY
       - 16-483-US
       - 16-493-SG
       - 16-503-CN
@@ -1619,6 +1621,7 @@ proxy-groups:
       - 16-405-RELAY
       - 16-415-RELAY
       - 16-435-CN
+      - 16-445-RELAY
       - 16-455-CN
       - 16-465-CN
       - 16-475-RELAY
@@ -1710,7 +1713,6 @@ proxy-groups:
       - 17-676-RELAY
       - 17-686-RELAY
       - 17-696-DE
-      - 17-906-RELAY
       - 17-946-CN
       - 17-956-US
       - 18-976-RELAY
@@ -1776,6 +1778,7 @@ proxy-groups:
       - 17-677-CN
       - 17-687-SG
       - 17-697-RELAY
+      - 17-907-CN
       - 17-937-CN
       - 17-947-US
       - 17-957-RELAY
@@ -1840,7 +1843,6 @@ proxy-groups:
       - 17-668-DE
       - 17-678-US
       - 17-698-RELAY
-      - 17-928-CN
       - 17-948-RELAY
       - 17-958-CN
       - 18-968-RELAY
@@ -1904,7 +1906,6 @@ proxy-groups:
       - 17-659-US
       - 17-669-RELAY
       - 17-679-US
-      - 17-929-US
       - 17-949-US
       - 17-959-CN
       - 18-969-FR
@@ -1966,7 +1967,6 @@ proxy-groups:
       - 17-650-CN
       - 17-670-CN
       - 17-690-US
-      - 17-930-RELAY
       - 17-940-SG
       - 17-960-US
       - 18-970-US
