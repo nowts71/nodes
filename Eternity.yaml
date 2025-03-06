@@ -334,7 +334,6 @@ proxies:
   - {name: 16-403-RELAY, server: visa.com, port: 443, type: vmess, uuid: 0d6758f3-3d8a-47e2-958a-17e12e3580a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-404-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 36f6572a-d787-4464-9a6a-9e94a72e1bcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-405-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 758a2ee0-64bc-405f-8aaa-c889b7bcae0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
-  - {name: 16-406-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 64d4b0b2-40a4-4e5f-8e05-c1af7351ca76, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-407-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 62e8ee73-b2b8-45cb-8101-39fc082c74d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 16-408-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 0ccc5936-1159-4b3f-ac6d-ce87ce501e43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-409-CN, server: southvip1.pkyun.xyz, port: 58812, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
@@ -351,6 +350,7 @@ proxies:
   - {name: 16-421-CN, server: southvip1.pkyun.xyz, port: 58807, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-423-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 39cee4b7-3ac4-450b-acba-68d28c01f7b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-424-CN, server: southvip1.pkyun.xyz, port: 58846, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
+  - {name: 16-425-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 3e7bf962-73f0-40a3-b44d-05c9bdae02ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-426-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 4befee0f-7014-473e-b836-90442dd41680, udp: true}
   - {name: 16-427-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 32903c9a-eb92-44fc-ac93-4f60f051d97c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 16-430-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: d72b2f12-90df-424b-aa53-9990653aced5, udp: true}
@@ -949,7 +949,6 @@ proxy-groups:
       - 16-403-RELAY
       - 16-404-US
       - 16-405-RELAY
-      - 16-406-RELAY
       - 16-407-RELAY
       - 16-408-SG
       - 16-409-CN
@@ -966,6 +965,7 @@ proxy-groups:
       - 16-421-CN
       - 16-423-SG
       - 16-424-CN
+      - 16-425-RELAY
       - 16-426-CN
       - 16-427-RELAY
       - 16-430-CN
@@ -1618,6 +1618,7 @@ proxy-groups:
       - 16-395-RELAY
       - 16-405-RELAY
       - 16-415-RELAY
+      - 16-425-RELAY
       - 16-435-CN
       - 16-455-CN
       - 16-465-CN
@@ -1683,7 +1684,6 @@ proxy-groups:
       - 16-376-CN
       - 16-386-SG
       - 16-396-RELAY
-      - 16-406-RELAY
       - 16-416-RELAY
       - 16-426-CN
       - 16-436-CN
