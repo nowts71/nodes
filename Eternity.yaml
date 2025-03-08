@@ -390,7 +390,6 @@ proxies:
   - {name: 16-445-CN, server: chiyu.myfczy169.top, port: 19946, type: ss, cipher: chacha20-ietf-poly1305, password: fa92d71f-7c5f-4063-ad67-2cc0e08ed293, udp: true}
   - {name: 16-446-CN, server: chiyu.myfczy169.top, port: 13489, type: ss, cipher: chacha20-ietf-poly1305, password: 49060fd0-18c3-4f54-99f3-3eaa90eec38e, udp: true}
   - {name: 16-447-CN, server: chiyu2.myfczy169.top, port: 40780, type: ss, cipher: chacha20-ietf-poly1305, password: 21197e0c-da90-4fea-8854-a49ffd0e23fc, udp: true}
-  - {name: 16-448-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: f5ec0fcf-f35b-4f2e-ad46-9c58cc2e070a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-449-CN, server: chiyu.myfczy169.top, port: 21081, type: ss, cipher: chacha20-ietf-poly1305, password: 49060fd0-18c3-4f54-99f3-3eaa90eec38e, udp: true}
   - {name: 16-450-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 4e192db2-dfd7-4224-a398-1d61c5de1a57, udp: true}
   - {name: 16-451-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: d094aba1-6805-4eed-aaca-aa6d0f2dd6b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
@@ -624,7 +623,8 @@ proxies:
   - {name: 17-693-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7fdb26ba-b870-4546-be4e-9d42d8e19bdd, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-696-RELAY, server: visa.com, port: 443, type: vmess, uuid: 7a2b216d-2548-4c5a-91d7-0050398cfb5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-697-CN, server: chiyu.myfczy169.top, port: 50555, type: ss, cipher: chacha20-ietf-poly1305, password: df142ce3-f5de-4e68-8868-5e2f5979ba69, udp: true}
-  - {name: 18-839-RELAY, server: s1.cn-db.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
+  - {name: 18-840-RELAY, server: cdncdncdn.aikunapp.com, port: 443, type: vmess, uuid: 96cad374-7573-4463-8804-4665c2c3d932, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdncdncdn.aikunapp.com}}, udp: true}
+  - {name: 18-851-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
   - {name: 18-852-FR, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 18-853-RELAY, server: s2.cn-db.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.cn-db.top}}, udp: true}
   - {name: 18-854-RELAY, server: 172.67.136.233, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1004,7 +1004,6 @@ proxy-groups:
       - 16-445-CN
       - 16-446-CN
       - 16-447-CN
-      - 16-448-SG
       - 16-449-CN
       - 16-450-CN
       - 16-451-SG
@@ -1238,7 +1237,8 @@ proxy-groups:
       - 17-693-US
       - 17-696-RELAY
       - 17-697-CN
-      - 18-839-RELAY
+      - 18-840-RELAY
+      - 18-851-FR
       - 18-852-FR
       - 18-853-RELAY
       - 18-854-RELAY
@@ -1371,6 +1371,7 @@ proxy-groups:
       - 16-661-CN
       - 16-671-DE
       - 17-681-CN
+      - 18-851-FR
       - 18-861-RELAY
       - 18-871-DE
   - name: 测速2分组
@@ -1816,7 +1817,6 @@ proxy-groups:
       - 16-418-RELAY
       - 16-428-RELAY
       - 16-438-SG
-      - 16-448-SG
       - 16-458-SG
       - 16-468-CN
       - 16-478-DE
@@ -1901,7 +1901,6 @@ proxy-groups:
       - 16-659-CN
       - 16-669-RELAY
       - 17-679-US
-      - 18-839-RELAY
       - 18-859-RELAY
       - 18-869-RELAY
   - name: 测速10分组
@@ -1967,6 +1966,7 @@ proxy-groups:
       - 16-670-CN
       - 17-680-US
       - 17-690-CN
+      - 18-840-RELAY
       - 18-860-DE
       - 18-870-RELAY
   - name: 广告拦截
