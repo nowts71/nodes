@@ -37,8 +37,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiI4MDgwIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc1YWQ5YWYyLWU0MGYtM2IxNi05MDJlLWRiZGI0NjdhNDQ2NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTguNDguMTQ5IiwiaG9zdCI6InMxLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc1YWQ5YWYyLWU0MGYtM2IxNi05MDJlLWRiZGI0NjdhNDQ2NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjAuMTU1LjIxOSIsImhvc3QiOiJzMS5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     trojan://7bee8447-96d7-3396-812e-e486c57a8b16@54.168.236.31:443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-007-JP
+    trojan://7bee8447-96d7-3396-812e-e486c57a8b16@54.186.62.98:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-009-US
     trojan://7bee8447-96d7-3396-812e-e486c57a8b16@103.136.185.27:5535?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-010-US
-    trojan://7bee8447-96d7-3396-812e-e486c57a8b16@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-011-US
     trojan://e5be742c-643d-3d22-a67c-b97b06c119a0@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://e5be742c-643d-3d22-a67c-b97b06c119a0@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://e5be742c-643d-3d22-a67c-b97b06c119a0@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
