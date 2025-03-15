@@ -5,7 +5,7 @@ vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczQuZGItbGluazAyLnRvcCIs
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6ImEwMDEzMzc2LTBiMWQtM2EwNi05NmQwLTY2MmQzNjFkNWJkNSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjcuMS4yMzciLCJob3N0IjoiczIuZGItbGluazAxLnRvcCIsInRscyI6IiJ9
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczMuY24tZGIudG9wIiwicG9ydCI6IjIwNTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiYTAwMTMzNzYtMGIxZC0zYTA2LTk2ZDAtNjYyZDM2MWQ1YmQ1IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4yMC41My4xNDYiLCJob3N0IjoiczMuY24tZGIudG9wIiwidGxzIjoiIn0=
 trojan://c11adbdf-f407-350c-a744-5fe1862c9c5f@54.168.236.31:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-007-JP
-trojan://c11adbdf-f407-350c-a744-5fe1862c9c5f@103.136.185.27:5535?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-010-US
+trojan://c11adbdf-f407-350c-a744-5fe1862c9c5f@54.201.215.147:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-009-US
 trojan://c11adbdf-f407-350c-a744-5fe1862c9c5f@103.136.185.28:3516?allowInsecure=1&sni=www.microsoft365.com#04-011-US
 trojan://7bb6e04d-8e61-38d9-95b7-6c40b14888d1@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
 trojan://7bb6e04d-8e61-38d9-95b7-6c40b14888d1@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
