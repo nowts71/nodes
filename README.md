@@ -35,7 +35,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAzLVJFTEFZIiwiYWRkIjoiczUuY24tZGIudG9wIiwicG9ydCI6IjIwNTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmQyNzIwMTgtOWQyNy0zZDkyLWI0MjQtZTIxZTQ5Y2E0YzEwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4xNy4zMC4xOSIsImhvc3QiOiJzNS5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjJkMjcyMDE4LTlkMjctM2Q5Mi1iNDI0LWUyMWU0OWNhNGMxMCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuNDQuMTciLCJob3N0IjoiczUuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczQuZGItbGluazAxLnRvcCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiIyZDI3MjAxOC05ZDI3LTNkOTItYjQyNC1lMjFlNDljYTRjMTAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTcyLjY0LjIuMjU0IiwiaG9zdCI6InM0LmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
-    trojan://bcbb5998-cc30-358c-8db6-c7b39e528715@54.168.236.31:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-006-JP
+    trojan://bcbb5998-cc30-358c-8db6-c7b39e528715@35.74.248.202:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-007-JP
     trojan://bcbb5998-cc30-358c-8db6-c7b39e528715@52.10.16.223:443?allowInsecure=1&sni=www.microsoft365.com#04-008-US
     trojan://bcbb5998-cc30-358c-8db6-c7b39e528715@103.136.185.28:3516?allowInsecure=1&sni=origin-a.akamaihd.net#04-010-US
     trojan://03439d1a-8e2c-3815-a652-ff616cd44808@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-011-CN
@@ -500,11 +500,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `567`
+合并节点总数: `537`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `567`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `537`
 
 
 ## 仓库声明
