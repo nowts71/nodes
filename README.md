@@ -37,7 +37,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczIuY24tZGIudG9wIiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiODU0Njk4ZjUtYTcwMC0zM2YyLTlhYzUtMWY5MzA0M2YyNTI4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42NC42MS4xNiIsImhvc3QiOiJzMi5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczUuY24tZGIudG9wIiwicG9ydCI6IjIwODYiLCJ0eXBlIjoibm9uZSIsImlkIjoiODU0Njk4ZjUtYTcwMC0zM2YyLTlhYzUtMWY5MzA0M2YyNTI4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42NC4zMi4yMjQiLCJob3N0IjoiczUuY24tZGIudG9wIiwidGxzIjoiIn0=
     trojan://4490027c-a08e-3415-87ee-9c0d47b8f74c@54.168.236.31:443?allowInsecure=1&sni=steampipe.akamaized.net#04-007-JP
-    trojan://4490027c-a08e-3415-87ee-9c0d47b8f74c@52.10.16.223:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-009-US
+    trojan://4490027c-a08e-3415-87ee-9c0d47b8f74c@103.136.185.27:5535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-010-US
     trojan://4490027c-a08e-3415-87ee-9c0d47b8f74c@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-011-US
     trojan://19e6ee7e-471e-3ce5-a2e1-c6467b6329e6@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://19e6ee7e-471e-3ce5-a2e1-c6467b6329e6@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
