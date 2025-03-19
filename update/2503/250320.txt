@@ -6,6 +6,7 @@ vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAyLnRvcCIs
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczMuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjE3NjAyZWIyLWQyOTAtM2I0Ny05NmVkLWM4MzQ0NTk1YTA2NCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuNDIuMTA1IiwiaG9zdCI6InMzLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
 trojan://90bc66af-3f6b-35e1-b7a4-91749302c51f@54.168.236.31:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-007-JP
 trojan://90bc66af-3f6b-35e1-b7a4-91749302c51f@52.10.16.223:443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-009-US
+trojan://90bc66af-3f6b-35e1-b7a4-91749302c51f@103.136.185.27:5535?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-010-US
 trojan://90bc66af-3f6b-35e1-b7a4-91749302c51f@103.136.185.28:3516?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-011-US
 trojan://c30901a9-0b04-35f9-bfa6-95d442bf9ef4@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
 trojan://c30901a9-0b04-35f9-bfa6-95d442bf9ef4@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
@@ -69,7 +70,6 @@ trojan://f43d30ee-7a5d-408f-a32e-b74935eeb7d7@zz.xgys.fogvip-zz.uk:40052?allowIn
 trojan://f43d30ee-7a5d-408f-a32e-b74935eeb7d7@zz.xgbig.viptap-tcb-zz.cc:50070?allowInsecure=1&sni=ld.xgbig.yuiuingkig.icu#07-170-CN
 trojan://f43d30ee-7a5d-408f-a32e-b74935eeb7d7@zz.2hkmix.fogvip-zz.uk:50306?allowInsecure=1&sni=ld.2heix.yuiuingkig.icu#07-171-CN
 vmess://eyJ2IjoiMiIsInBzIjoiMDctMTcyLVJFTEFZIiwiYWRkIjoiaXJhbi5mYXJzb25saW5lMjQuaXIiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjhiMmU2Y2NlLTE4ZjctNDljNi05MDU2LWI2NGRmOTc5MmIyMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMjc5MjUvQE0zSERJTzEiLCJob3N0IjoiaXJhbi5mYXJzb25saW5lMjQuaXIiLCJ0bHMiOiJ0bHMifQ==
-ss://YWVzLTI1Ni1nY206OWFjZmM1NzQtYWNjMy00YzJiLWFiM2ItNDkxZDQzYTZlYjgz@okanc.node-is.green:21115#07-173-US
 trojan://f43d30ee-7a5d-408f-a32e-b74935eeb7d7@zz.xinjp02.fogvip-zz.uk:40017?allowInsecure=1&sni=ld.xinjp01.yuiuingkig.icu#07-174-CN
 trojan://f43d30ee-7a5d-408f-a32e-b74935eeb7d7@zz.xinjp01.fogvip-zz.uk:40013?allowInsecure=1&sni=ld.xinjp01.yuiuingkig.icu#07-175-CN
 trojan://f43d30ee-7a5d-408f-a32e-b74935eeb7d7@zz.jp01.fogvip-zz.uk:40015?allowInsecure=1&sni=ld.jp01.yuiuingkig.icu#07-176-CN
