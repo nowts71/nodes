@@ -38,7 +38,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczIuY24tZGIudG9wIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImM4NzEyNGE4LWNhZWEtMzg2OS1hOTlkLTBhZjM5YjJlMzYyMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjAuMjQ0LjM2IiwiaG9zdCI6InMyLmNuLWRiLnRvcCIsInRscyI6IiJ9
     trojan://55366b6c-2c1a-3daf-bca4-a9fe62f16500@35.74.248.202:443?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-008-JP
     trojan://55366b6c-2c1a-3daf-bca4-a9fe62f16500@35.87.148.97:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-009-US
-    trojan://55366b6c-2c1a-3daf-bca4-a9fe62f16500@103.136.185.27:5535?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-010-US
+    trojan://55366b6c-2c1a-3daf-bca4-a9fe62f16500@103.136.185.28:3516?allowInsecure=1&sni=steampipe.akamaized.net#04-011-US
     trojan://b830dc2f-65a5-32a6-a98b-2fd9db5f86b8@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://b830dc2f-65a5-32a6-a98b-2fd9db5f86b8@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://b830dc2f-65a5-32a6-a98b-2fd9db5f86b8@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
