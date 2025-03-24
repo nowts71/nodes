@@ -4,9 +4,9 @@ vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAzLVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAxLnRvcCIs
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6ImNhNWU3N2M5LTljZjItMzQzMy05MWI0LTY0MTljODJjNTlkNCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTcuMjE5LjI0NCIsImhvc3QiOiJzMS5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJjYTVlNzdjOS05Y2YyLTM0MzMtOTFiNC02NDE5YzgyYzU5ZDQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjIxLjI5LjE3OCIsImhvc3QiOiJzMS5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAyLnRvcCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJjYTVlNzdjOS05Y2YyLTM0MzMtOTFiNC02NDE5YzgyYzU5ZDQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjI0LjI0LjEyOSIsImhvc3QiOiJzMS5kYi1saW5rMDIudG9wIiwidGxzIjoiIn0=
-trojan://ed6de709-0767-381e-8e0d-665f9667327b@54.168.236.31:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-007-JP
+trojan://ed6de709-0767-381e-8e0d-665f9667327b@35.74.248.202:443?allowInsecure=1&sni=origin-a.akamaihd.net#04-008-JP
 trojan://ed6de709-0767-381e-8e0d-665f9667327b@54.68.231.3:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-009-US
-trojan://ed6de709-0767-381e-8e0d-665f9667327b@103.136.185.28:3516?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-011-US
+trojan://ed6de709-0767-381e-8e0d-665f9667327b@103.136.185.27:5535?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-010-US
 trojan://c705b377-2afa-3826-aa02-67e02160391d@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
 trojan://c705b377-2afa-3826-aa02-67e02160391d@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
 trojan://c705b377-2afa-3826-aa02-67e02160391d@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
