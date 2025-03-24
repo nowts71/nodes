@@ -220,6 +220,7 @@ proxies:
   - {name: 16-267-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 64c53dd9-ccbc-4ae3-b1fc-65951d29ab2b, udp: true}
   - {name: 16-268-CN, server: chiyu.myfczy169.top, port: 22539, type: ss, cipher: chacha20-ietf-poly1305, password: 64c53dd9-ccbc-4ae3-b1fc-65951d29ab2b, udp: true}
   - {name: 16-269-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 2e7187f8-56f6-419c-a503-f10a82ce7ce7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
+  - {name: 16-270-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: a0db2545-4cff-47be-81e1-548eadd59fe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-271-CN, server: chiyu.myfczy169.top, port: 21048, type: ss, cipher: chacha20-ietf-poly1305, password: 64c53dd9-ccbc-4ae3-b1fc-65951d29ab2b, udp: true}
   - {name: 16-272-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: bda131d0-96d4-4a91-8e19-5482bf3b5a86, udp: true}
   - {name: 16-273-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 4b35842f-8118-4e81-a20b-e38a40bb279c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
@@ -308,7 +309,6 @@ proxies:
   - {name: 16-356-CN, server: chiyu.myfczy169.top, port: 19115, type: ss, cipher: chacha20-ietf-poly1305, password: 64c53dd9-ccbc-4ae3-b1fc-65951d29ab2b, udp: true}
   - {name: 16-357-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 0a4fc2b8-dfed-48ec-8370-40eff6d0ab48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 16-358-CN, server: chiyu.myfczy169.top, port: 50555, type: ss, cipher: chacha20-ietf-poly1305, password: 061f175a-1868-46cd-ba4e-244c0513eb1f, udp: true}
-  - {name: 16-359-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 889f4373-cd80-40cf-9da9-007fe5b199aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-360-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: be690a53-ff1d-4aa3-9180-d413504ee6a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-361-CN, server: chiyu.myfczy169.top, port: 20119, type: ss, cipher: chacha20-ietf-poly1305, password: 061f175a-1868-46cd-ba4e-244c0513eb1f, udp: true}
   - {name: 16-362-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 318e35ab-9d4a-460b-9076-05d08e310982, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
@@ -727,6 +727,7 @@ proxy-groups:
       - 16-267-CN
       - 16-268-CN
       - 16-269-DE
+      - 16-270-US
       - 16-271-CN
       - 16-272-CN
       - 16-273-DE
@@ -815,7 +816,6 @@ proxy-groups:
       - 16-356-CN
       - 16-357-RELAY
       - 16-358-CN
-      - 16-359-US
       - 16-360-DE
       - 16-361-CN
       - 16-362-RELAY
@@ -1570,7 +1570,6 @@ proxy-groups:
       - 16-329-CN
       - 16-339-CN
       - 16-349-CN
-      - 16-359-US
       - 16-369-CN
       - 16-379-RELAY
       - 16-389-CN
@@ -1616,6 +1615,7 @@ proxy-groups:
       - 16-240-CN
       - 16-250-RELAY
       - 16-260-DE
+      - 16-270-US
       - 16-280-SG
       - 16-290-US
       - 16-300-DE
