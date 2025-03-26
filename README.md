@@ -36,9 +36,9 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAyLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjViNjg5ZGViLTlkNTMtM2YyZS1hZjJjLTZjZDBmOTE3MzlkMSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTYuNDcuMjQyIiwiaG9zdCI6InMyLmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczEuY24tZGIudG9wIiwicG9ydCI6Ijg4ODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNWI2ODlkZWItOWQ1My0zZjJlLWFmMmMtNmNkMGY5MTczOWQxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42NC40Ny4yNTMiLCJob3N0IjoiczEuY24tZGIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczUuY24tZGIudG9wIiwicG9ydCI6IjIwNTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiNWI2ODlkZWItOWQ1My0zZjJlLWFmMmMtNmNkMGY5MTczOWQxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4yMS45NC4yNCIsImhvc3QiOiJzNS5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
-    trojan://ca627447-3170-3283-bce4-b7f926dbbe9d@35.74.248.202:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-008-JP
+    trojan://ca627447-3170-3283-bce4-b7f926dbbe9d@54.168.236.31:443?allowInsecure=1&sni=www.microsoft365.com#04-007-JP
     trojan://ca627447-3170-3283-bce4-b7f926dbbe9d@52.24.249.216:443?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-009-US
-    trojan://ca627447-3170-3283-bce4-b7f926dbbe9d@103.136.185.28:3516?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-011-US
+    trojan://ca627447-3170-3283-bce4-b7f926dbbe9d@103.136.185.27:5535?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-010-US
     trojan://c5086b28-c5ba-3bce-9aaa-b19de7672be7@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://c5086b28-c5ba-3bce-9aaa-b19de7672be7@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://c5086b28-c5ba-3bce-9aaa-b19de7672be7@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
