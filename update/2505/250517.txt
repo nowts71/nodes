@@ -121,6 +121,7 @@ trojan://4b783ef3-c93d-3929-ba49-b9abce8dc1c6@gy.58n.net:20304?allowInsecure=1&s
 trojan://4b783ef3-c93d-3929-ba49-b9abce8dc1c6@gy.58n.net:20305?allowInsecure=1&sni=z305.hongkongnode.top#04-220-CN
 trojan://4b783ef3-c93d-3929-ba49-b9abce8dc1c6@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-221-CN
 trojan://c645e5e1-a7ed-34b9-8d3e-928dc72db596@43.100.9.65:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-222-CN
+trojan://c645e5e1-a7ed-34b9-8d3e-928dc72db596@47.245.40.60:28449?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-223-JP
 trojan://c645e5e1-a7ed-34b9-8d3e-928dc72db596@47.245.31.103:28449?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-224-JP
 trojan://c645e5e1-a7ed-34b9-8d3e-928dc72db596@103.136.185.28:447?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-225-US
 trojan://6884d714-d3c4-4b49-aa20-767ea92837d6@45.154.98.124:12001?allowInsecure=1&sni=icecream.955850.xyz#07-226-NL
@@ -541,7 +542,6 @@ vmess://eyJ2IjoiMiIsInBzIjoiMTYtNjQyLVJFTEFZIiwiYWRkIjoiYm9va215c2hvdy5jb20iLCJw
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplMTc5YTE1ZC00MjFkLTQ5ODAtYjdmZS0yZGZlMDI5ODBjMjk@hinetiw0k.yooddns.stream:26900#16-643-TW
 vmess://eyJ2IjoiMiIsInBzIjoiMTYtNjQ0LU5PV0hFUkUiLCJhZGQiOiJiZXN0Y2YudG9wIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwZTE2NmFhMi02OTNjLTRhN2YtODVmNS05MWNlYWIyNDA5ZWEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJiZXN0Y2YudG9wIiwidGxzIjoidGxzIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiMTYtNjQ1LU5PV0hFUkUiLCJhZGQiOiJiZXN0Y2YubWZ3bC5hcnQiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjBlMTY2YWEyLTY5M2MtNGE3Zi04NWY1LTkxY2VhYjI0MDllYSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImJlc3RjZi5tZndsLmFydCIsInRscyI6InRscyJ9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkYmE1NDQwYy1jYTU3LTQ3OGMtYTE2Yi04MDAyOGJhYWZhZTI@hinetiw0k.yooddns.stream:26900#16-646-TW
 vmess://eyJ2IjoiMiIsInBzIjoiMTYtNjQ3LVJFTEFZIiwiYWRkIjoiNDQzaXAueWFuZ21pZS5vbmxpbmUiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImJiOTA0M2Q2LTVkM2QtNGY4Zi1iMzgzLTg0NWU2NjYzZjhiNSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IjQ0M2lwLnlhbmdtaWUub25saW5lIiwidGxzIjoidGxzIn0=
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5NDdlNDlhOC0zNDRjLTRjYWMtYWRiMi0xZWY0NWJiOGMxYjQ@jg647hf446ghvw.gym0boy.com:49709#16-648-CN
 vmess://eyJ2IjoiMiIsInBzIjoiMTYtNjQ5LVJFTEFZIiwiYWRkIjoidGltZS5pcyIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiOGVkZGZiNWUtNTQ4ZC00ZjRjLWI5OTQtOWE5Y2E4MjVhMTE2IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoidGltZS5pcyIsInRscyI6InRscyJ9
