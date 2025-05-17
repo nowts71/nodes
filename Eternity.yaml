@@ -175,6 +175,7 @@ proxies:
   - {name: 04-220-CN, server: gy.58n.net, port: 20305, type: trojan, password: 4b783ef3-c93d-3929-ba49-b9abce8dc1c6, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-221-CN, server: gy.58n.net, port: 20306, type: trojan, password: 4b783ef3-c93d-3929-ba49-b9abce8dc1c6, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-222-CN, server: 43.100.9.65, port: 443, type: trojan, password: c645e5e1-a7ed-34b9-8d3e-928dc72db596, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-223-JP, server: 47.245.40.60, port: 28449, type: trojan, password: c645e5e1-a7ed-34b9-8d3e-928dc72db596, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-224-JP, server: 47.245.31.103, port: 28449, type: trojan, password: c645e5e1-a7ed-34b9-8d3e-928dc72db596, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-225-US, server: 103.136.185.28, port: 447, type: trojan, password: c645e5e1-a7ed-34b9-8d3e-928dc72db596, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 07-226-NL, server: 45.154.98.124, port: 12001, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, udp: true}
@@ -595,7 +596,6 @@ proxies:
   - {name: 16-643-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: e179a15d-421d-4980-b7fe-2dfe02980c29, udp: true}
   - {name: 16-644-NOWHERE, server: bestcf.top, port: 443, type: vmess, uuid: 0e166aa2-693c-4a7f-85f5-91ceab2409ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
   - {name: 16-645-NOWHERE, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 0e166aa2-693c-4a7f-85f5-91ceab2409ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
-  - {name: 16-646-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: dba5440c-ca57-478c-a16b-80028baafae2, udp: true}
   - {name: 16-647-RELAY, server: 443ip.yangmie.online, port: 443, type: vmess, uuid: bb9043d6-5d3d-4f8f-b383-845e6663f8b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 443ip.yangmie.online}}, udp: true}
   - {name: 16-648-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 947e49a8-344c-4cac-adb2-1ef45bb8c1b4, udp: true}
   - {name: 16-649-RELAY, server: time.is, port: 443, type: vmess, uuid: 8eddfb5e-548d-4f4c-b994-9a9ca825a116, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
@@ -739,6 +739,7 @@ proxy-groups:
       - 04-220-CN
       - 04-221-CN
       - 04-222-CN
+      - 04-223-JP
       - 04-224-JP
       - 04-225-US
       - 07-226-NL
@@ -1159,7 +1160,6 @@ proxy-groups:
       - 16-643-TW
       - 16-644-NOWHERE
       - 16-645-NOWHERE
-      - 16-646-TW
       - 16-647-RELAY
       - 16-648-CN
       - 16-649-RELAY
@@ -1352,6 +1352,7 @@ proxy-groups:
       - 04-193-CN
       - 04-203-CN
       - 04-213-CN
+      - 04-223-JP
       - 07-233-CN
       - 07-243-RELAY
       - 07-253-CN
@@ -1577,7 +1578,6 @@ proxy-groups:
       - 16-616-RELAY
       - 16-626-NOWHERE
       - 16-636-RELAY
-      - 16-646-TW
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -54629,43 +54629,6 @@ rules:
  - IP-CIDR,223.255.0.0/17,全球直连,no-resolve
  - IP-CIDR,223.255.236.0/22,全球直连,no-resolve
  - IP-CIDR,223.255.252.0/23,全球直连,no-resolve
- - DOMAIN,apiintl.biliapi.net,全球直连
- - DOMAIN,upos-hz-mirrorakam.akamaized.net,全球直连
- - DOMAIN-SUFFIX,acg.tv,全球直连
- - DOMAIN-SUFFIX,acgvideo.com,全球直连
- - DOMAIN-SUFFIX,b23.tv,全球直连
- - DOMAIN-SUFFIX,bigfun.cn,全球直连
- - DOMAIN-SUFFIX,bigfunapp.cn,全球直连
- - DOMAIN-SUFFIX,biliapi.com,全球直连
- - DOMAIN-SUFFIX,biliapi.net,全球直连
- - DOMAIN-SUFFIX,bilibili.com,全球直连
- - DOMAIN-SUFFIX,bilibili.tv,全球直连
- - DOMAIN-SUFFIX,biligame.com,全球直连
- - DOMAIN-SUFFIX,biligame.net,全球直连
- - DOMAIN-SUFFIX,bilivideo.cn,全球直连
- - DOMAIN-SUFFIX,bilivideo.com,全球直连
- - DOMAIN-SUFFIX,hdslb.com,全球直连
- - DOMAIN-SUFFIX,im9.com,全球直连
- - DOMAIN-SUFFIX,smtcdns.net,全球直连
- - DOMAIN,intel-cache.m.iqiyi.com,全球直连
- - DOMAIN,intel-cache.video.iqiyi.com,全球直连
- - DOMAIN,intl-rcd.iqiyi.com,全球直连
- - DOMAIN,intl-subscription.iqiyi.com,全球直连
- - DOMAIN-SUFFIX,inter.iqiyi.com,全球直连
- - DOMAIN-SUFFIX,inter.ptqy.gitv.tv,全球直连
- - DOMAIN-SUFFIX,intl.iqiyi.com,全球直连
- - DOMAIN-SUFFIX,iq.com,全球直连
- - IP-CIDR,23.40.241.251/32,全球直连,no-resolve
- - IP-CIDR,23.40.242.10/32,全球直连,no-resolve
- - IP-CIDR,103.44.56.0/22,全球直连,no-resolve
- - IP-CIDR,118.26.32.0/23,全球直连,no-resolve
- - IP-CIDR,118.26.120.0/24,全球直连,no-resolve
- - IP-CIDR,223.119.62.225/28,全球直连,no-resolve
- - DOMAIN-SUFFIX,api.mob.app.letv.com,全球直连
- - DOMAIN-SUFFIX,v.smtcdns.com,全球直连
- - DOMAIN-SUFFIX,vv.video.qq.com,全球直连
- - DOMAIN-SUFFIX,youku.com,全球直连
- - IP-CIDR,106.11.0.0/16,全球直连,no-resolve
  - DOMAIN-SUFFIX,1password.com,节点选择
  - DOMAIN-SUFFIX,adguard.org,节点选择
  - DOMAIN-SUFFIX,bit.no.com,节点选择
