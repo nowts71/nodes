@@ -52,17 +52,17 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-JP, server: 18.181.239.26, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0002-KR, server: 3.39.245.122, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0003-SG, server: 47.129.24.142, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0004-JP, server: 18.181.239.26, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0005-US, server: 52.36.85.223, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0006-KR, server: 3.39.245.122, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0007-SG, server: 47.129.24.142, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0008-JP, server: 18.181.239.26, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0009-US, server: 52.36.85.223, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0010-KR, server: 3.39.245.122, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0011-SG, server: 47.129.24.142, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0000-JP, server: 57.181.173.67, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0002-KR, server: 43.203.136.94, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0003-SG, server: 18.142.118.212, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0004-JP, server: 57.181.173.67, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0005-US, server: 44.244.111.181, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0006-KR, server: 43.203.136.94, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0007-SG, server: 18.142.118.212, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0008-JP, server: 57.181.173.67, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0009-US, server: 44.244.111.181, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0010-KR, server: 43.203.136.94, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0011-SG, server: 18.142.118.212, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0013-CN, server: gate.jiasudu.buzz, port: 47000, type: ss, cipher: aes-256-gcm, password: 1c3ed973-2998-4989-849b-b01ba2cbcb44, udp: true}
   - {name: 03-0014-CN, server: gate.jiasudu.buzz, port: 47000, type: ss, cipher: aes-256-gcm, password: 1c3ed973-2998-4989-849b-b01ba2cbcb44, udp: true}
   - {name: 03-0015-CN, server: hk05.jiasudu.buzz, port: 47015, type: ss, cipher: aes-256-gcm, password: 1c3ed973-2998-4989-849b-b01ba2cbcb44, udp: true}
@@ -630,7 +630,7 @@ proxies:
   - {name: 03-0636-CN, server: dxzx.flyby-world.top, port: 46178, type: ss, cipher: chacha20-ietf-poly1305, password: bb64a413-999d-491c-b1f5-990336af8a4e, udp: true}
   - {name: 03-0637-HK, server: 205.198.84.89, port: 58476, type: ss, cipher: aes-128-gcm, password: 0df07fef-fb8d-461f-8e6a-1654adf84319, udp: true}
   - {name: 03-0638-SG, server: 205.198.87.37, port: 12343, type: ss, cipher: aes-128-gcm, password: 0df07fef-fb8d-461f-8e6a-1654adf84319, udp: true}
-  - {name: 03-0639-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.36.85.2239898#02-0001-US, server: 205.198.89.27, port: 48761, type: ss, cipher: aes-128-gcm, password: 0df07fef-fb8d-461f-8e6a-1654adf84319, udp: true}
+  - {name: 03-0639-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.244.111.1819898#02-0001-US, server: 205.198.89.27, port: 48761, type: ss, cipher: aes-128-gcm, password: 0df07fef-fb8d-461f-8e6a-1654adf84319, udp: true}
   - {name: 03-0640-USss//YWVzLTI1Ni1nY206MWMzZWQ5NzMtMjk5OC00OTg5LTg0OWItYjAxYmEyY2JjYjQ0@gate.jiasudu.buzz47000#03-0012-CN, server: 205.198.69.137, port: 61245, type: ss, cipher: aes-128-gcm, password: 0df07fef-fb8d-461f-8e6a-1654adf84319, udp: true}
   - {name: 03-0641-NOWHERE, server: empty.node, port: 443, type: trojan, password: 24f516fc-8130-49a1-93d9-be206c1a08cd, sni: empty.node, skip-cert-verify: true, udp: true}
   - {name: 03-0642-CN, server: dxzx.flyby-world.top, port: 46178, type: ss, cipher: chacha20-ietf-poly1305, password: 56128ff2-d648-4fa6-9f4f-1857cbbd0d3c, udp: true}
@@ -1245,7 +1245,7 @@ proxy-groups:
       - 03-0636-CN
       - 03-0637-HK
       - 03-0638-SG
-      - 03-0639-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.36.85.2239898#02-0001-US
+      - 03-0639-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.244.111.1819898#02-0001-US
       - 03-0640-USss//YWVzLTI1Ni1nY206MWMzZWQ5NzMtMjk5OC00OTg5LTg0OWItYjAxYmEyY2JjYjQ0@gate.jiasudu.buzz47000#03-0012-CN
       - 03-0641-NOWHERE
       - 03-0642-CN
@@ -1378,7 +1378,7 @@ proxy-groups:
       - 03-0611-HK
       - 03-0621-HK
       - 03-0631-US
-      - 03-0639-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.36.85.2239898#02-0001-US
+      - 03-0639-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.244.111.1819898#02-0001-US
       - 03-0641-NOWHERE
       - 03-0651-CN
   - name: 测速2分组
@@ -1905,7 +1905,7 @@ proxy-groups:
       - 03-0609-HK
       - 03-0619-HK
       - 03-0629-HK
-      - 03-0639-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.36.85.2239898#02-0001-US
+      - 03-0639-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.244.111.1819898#02-0001-US
       - 03-0649-CN
       - 11-1819-NOWHERE
   - name: 测速10分组
