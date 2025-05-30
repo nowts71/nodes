@@ -52,17 +52,17 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-JP, server: 35.75.21.91, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0002-KR, server: 3.35.197.31, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0003-SG, server: 47.129.121.119, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0004-JP, server: 35.75.21.91, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0005-US, server: 54.185.164.42, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0006-KR, server: 3.35.197.31, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0007-SG, server: 47.129.121.119, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0008-JP, server: 35.75.21.91, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0009-US, server: 54.185.164.42, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0010-KR, server: 3.35.197.31, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0011-SG, server: 47.129.121.119, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0000-JP, server: 13.230.34.249, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0002-KR, server: 43.203.152.37, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0003-SG, server: 13.214.56.41, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0004-JP, server: 13.230.34.249, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0005-US, server: 54.184.29.53, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0006-KR, server: 43.203.152.37, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0007-SG, server: 13.214.56.41, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0008-JP, server: 13.230.34.249, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0009-US, server: 54.184.29.53, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0010-KR, server: 43.203.152.37, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0011-SG, server: 13.214.56.41, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0013-JP, server: xj.cokecloud.top, port: 32283, type: trojan, password: e065bbf0-7e7f-467a-9ae5-0435ee709dbb, sni: xj.cokecloud.top, skip-cert-verify: true, udp: true}
   - {name: 03-0014-CN, server: cokecloudjp.cokecloud.top, port: 20437, type: ss, cipher: chacha20-ietf-poly1305, password: e065bbf0-7e7f-467a-9ae5-0435ee709dbb, udp: true}
   - {name: 03-0015-CN, server: cokecloudjp.cokecloud.top, port: 43291, type: ss, cipher: chacha20-ietf-poly1305, password: e065bbf0-7e7f-467a-9ae5-0435ee709dbb, udp: true}
@@ -545,6 +545,7 @@ proxies:
   - {name: 03-0492-HK, server: 0000000000000000000000000063.cgroup-node-for-bigairport.sbs, port: 22352, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000063.cgroup-node-for-bigairport.sbs}}, udp: true}
   - {name: 03-0493-HK, server: 0000000000000000000000000064.cgroup-node-for-bigairport.sbs, port: 42352, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000064.cgroup-node-for-bigairport.sbs}}, udp: true}
   - {name: 03-0494-HK, server: 0000000000000000000000000065.cgroup-node-for-bigairport.sbs, port: 22353, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000065.cgroup-node-for-bigairport.sbs}}, udp: true}
+  - {name: 03-0495-HK, server: 0000000000000000000000000066.cgroup-node-for-bigairport.sbs, port: 42353, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000066.cgroup-node-for-bigairport.sbs}}, udp: true}
   - {name: 03-0496-HK, server: 0000000000000000000000000067.cgroup-node-for-bigairport.sbs, port: 22354, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000067.cgroup-node-for-bigairport.sbs}}, udp: true}
   - {name: 03-0497-HK, server: 0000000000000000000000000068.cgroup-node-for-bigairport.sbs, port: 42354, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000068.cgroup-node-for-bigairport.sbs}}, udp: true}
   - {name: 03-0498-HK, server: 0000000000000000000000000069.cgroup-node-for-bigairport.sbs, port: 22355, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0000000000000000000000000069.cgroup-node-for-bigairport.sbs}}, udp: true}
@@ -648,7 +649,6 @@ proxies:
   - {name: 03-0597-CN, server: ahuaweisb2.xn--z7x16bf6t.com, port: 35689, type: trojan, password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d, sni: v1.kwaicdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0598-CN, server: agoogleyun3.xn--z7x16bf6t.com, port: 35689, type: trojan, password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d, sni: v1.kwaicdn.com, skip-cert-verify: true, udp: true}
   - {name: 03-0599-CN, server: adubaiyun4.xn--z7x16bf6t.com, port: 35689, type: trojan, password: 07a0e875-9b9a-4e11-a81f-8af85f82e74d, sni: v1.kwaicdn.com, skip-cert-verify: true, udp: true}
-  - {name: 14-1884-RELAY, server: 104.21.25.95, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1159,6 +1159,7 @@ proxy-groups:
       - 03-0492-HK
       - 03-0493-HK
       - 03-0494-HK
+      - 03-0495-HK
       - 03-0496-HK
       - 03-0497-HK
       - 03-0498-HK
@@ -1262,7 +1263,6 @@ proxy-groups:
       - 03-0597-CN
       - 03-0598-CN
       - 03-0599-CN
-      - 14-1884-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1575,7 +1575,6 @@ proxy-groups:
       - 03-0574-US
       - 03-0584-CN
       - 03-0594-CN
-      - 14-1884-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1631,6 +1630,7 @@ proxy-groups:
       - 03-0465-CN
       - 03-0475-CN
       - 03-0485-SG
+      - 03-0495-HK
       - 03-0505-CN
       - 03-0515-CN
       - 03-0525-RELAY
