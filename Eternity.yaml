@@ -239,7 +239,6 @@ proxies:
   - {name: 08-287-RELAY, server: time.is, port: 443, type: vmess, uuid: de31cdf4-076f-440e-9da1-35744eb25b80, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 08-288-NOWHERE, server: zz.xiao666666.site, port: 20000, type: ss, cipher: chacha20-ietf-poly1305, password: de31cdf4-076f-440e-9da1-35744eb25b80, udp: true}
   - {name: 09-289-RELAY, server: 162.159.45.236, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: 09-290-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-291-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-292-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: b3928f8d-ea81-4d75-bcec-4016a072adff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 11-293-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 97890b78-31a6-4163-8259-7d998a394bcb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -274,6 +273,7 @@ proxies:
   - {name: 13-322-NOWHERE, server: bestcf.mfwl.art, port: 443, type: vmess, uuid: 648dd621-e9ee-4766-8a57-71f6ff27a7b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
   - {name: 13-323-CN, server: gya.tangu.win, port: 45628, type: ss, cipher: chacha20-ietf-poly1305, password: e8211c89-b34c-4cba-9027-5b0d08390565, udp: true}
   - {name: 13-324-CN, server: qqa813.198139.xyz, port: 26641, type: ss, cipher: chacha20-ietf-poly1305, password: e8211c89-b34c-4cba-9027-5b0d08390565, udp: true}
+  - {name: 18-326-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 18-327-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-328-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-329-US, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
@@ -573,7 +573,6 @@ proxy-groups:
       - 08-287-RELAY
       - 08-288-NOWHERE
       - 09-289-RELAY
-      - 09-290-US
       - 09-291-CA
       - 09-292-RELAY
       - 11-293-NOWHERE
@@ -608,6 +607,7 @@ proxy-groups:
       - 13-322-NOWHERE
       - 13-323-CN
       - 13-324-CN
+      - 18-326-US
       - 18-327-RELAY
       - 18-328-RELAY
       - 18-329-US
@@ -970,6 +970,7 @@ proxy-groups:
       - 13-296-NOWHERE
       - 13-306-CN
       - 13-316-TW
+      - 18-326-US
       - 18-336-US
       - 18-346-RELAY
       - 18-356-FR
@@ -1116,7 +1117,6 @@ proxy-groups:
       - 07-260-RELAY
       - 07-270-RELAY
       - 08-280-TW
-      - 09-290-US
       - 13-300-CN
       - 13-310-RELAY
       - 13-320-CN
