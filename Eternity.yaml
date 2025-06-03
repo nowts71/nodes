@@ -55,7 +55,6 @@ proxies:
   - {name: 02-000-JP, server: 54.168.222.10, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-001-KR, server: 3.34.189.14, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-002-JP, server: 57.182.254.154, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-003-US, server: 35.94.236.215, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-004-KR, server: 3.34.202.225, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-005-SG, server: 47.129.124.234, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-006-JP, server: 54.168.222.10, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
@@ -277,6 +276,7 @@ proxies:
   - {name: 13-325-CN, server: gya.tangu.win, port: 45628, type: ss, cipher: chacha20-ietf-poly1305, password: e8211c89-b34c-4cba-9027-5b0d08390565, udp: true}
   - {name: 13-326-CN, server: qqa813.198139.xyz, port: 26641, type: ss, cipher: chacha20-ietf-poly1305, password: e8211c89-b34c-4cba-9027-5b0d08390565, udp: true}
   - {name: 18-328-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
+  - {name: 18-329-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-330-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 18-331-NO, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-332-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
@@ -290,6 +290,7 @@ proxies:
   - {name: 18-340-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-341-US, server: 152.67.251.232, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-342-RELAY, server: 104.21.64.1, port: 2096, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-343-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.94.236.2159898#02-003-US, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-344-RELAY, server: 9x.938.pp.ua, port: 443, type: vmess, uuid: 906ba92f-ef96-4133-8eee-f33202a5a721, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9x.938.pp.ua}}, udp: true}
   - {name: 18-345-RELAY, server: 104.21.112.1, port: 2053, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-346-KR, server: lv4.789900.xyz, port: 2087, type: vmess, uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv4.789900.xyz}}, udp: true}
@@ -370,7 +371,6 @@ proxy-groups:
       - 02-000-JP
       - 02-001-KR
       - 02-002-JP
-      - 02-003-US
       - 02-004-KR
       - 02-005-SG
       - 02-006-JP
@@ -592,6 +592,7 @@ proxy-groups:
       - 13-325-CN
       - 13-326-CN
       - 18-328-RELAY
+      - 18-329-CA
       - 18-330-RELAY
       - 18-331-NO
       - 18-332-FR
@@ -605,6 +606,7 @@ proxy-groups:
       - 18-340-DE
       - 18-341-US
       - 18-342-RELAY
+      - 18-343-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.94.236.2159898#02-003-US
       - 18-344-RELAY
       - 18-345-RELAY
       - 18-346-KR
@@ -793,7 +795,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-003-US
       - 02-013-KR
       - 04-023-RELAY
       - 04-133-CN
@@ -816,6 +817,7 @@ proxy-groups:
       - 13-313-TW
       - 13-323-CN
       - 18-333-FR
+      - 18-343-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.94.236.2159898#02-003-US
       - 18-353-HK
       - 18-363-HK
       - 18-373-HK
@@ -1028,6 +1030,7 @@ proxy-groups:
       - 13-299-RELAY
       - 13-309-CN
       - 13-319-CN
+      - 18-329-CA
       - 18-339-RELAY
       - 18-349-HK
       - 18-359-HK
