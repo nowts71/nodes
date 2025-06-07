@@ -175,11 +175,11 @@ proxies:
   - {name: 09-333-RELAY, server: 172.67.214.33, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-334-RELAY, server: 104.21.23.231, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-335-RELAY, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}, udp: true}
-  - {name: 09-336-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: "09-336-CAtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH", server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-337-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 09-338-RELAY, server: 185.146.173.25, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-339-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: "09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH", server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
+  - {name: 09-340-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 09-341-RELAY, server: 104.19.150.10, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-342-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 09-343-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
@@ -595,11 +595,11 @@ proxy-groups:
       - 09-333-RELAY
       - 09-334-RELAY
       - 09-335-RELAY
-      - 09-336-CA
+      - 09-336-CAtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 09-337-RELAY
       - 09-338-RELAY
       - 09-339-FR
-      - 09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
+      - 09-340-US
       - 09-341-RELAY
       - 09-342-RELAY
       - 09-343-DE
@@ -990,7 +990,7 @@ proxy-groups:
       - 08-312-RU
       - 08-322-NOWHERE
       - 09-332-US
-      - 09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
+      - 09-336-CAtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 09-342-RELAY
       - 10-352-CN
       - 11-362-CN
@@ -1080,7 +1080,7 @@ proxy-groups:
       - 08-294-CN
       - 08-314-NOWHERE
       - 09-334-RELAY
-      - 09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
+      - 09-336-CAtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 10-344-CN
       - 10-354-CN
       - 11-364-CN
@@ -1174,7 +1174,7 @@ proxy-groups:
       - 08-286-RU
       - 08-296-RELAY
       - 08-326-NOWHERE
-      - 09-336-CA
+      - 09-336-CAtrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 10-346-CN
       - 10-356-CN
       - 11-366-NOWHERE
@@ -1364,7 +1364,7 @@ proxy-groups:
       - 08-310-RU
       - 08-320-NOWHERE
       - 09-330-RELAY
-      - 09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
+      - 09-340-US
       - 10-350-RELAY
       - 11-360-RU
       - 11-370-CN
