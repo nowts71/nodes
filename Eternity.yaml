@@ -259,8 +259,8 @@ proxies:
   - {name: 23-441-RU, server: 45.151.62.54, port: 28825, type: ss, cipher: chacha20-ietf-poly1305, password: 0zyDRZ1XmNXaaCAN7KEA8a, udp: true}
   - {name: 23-442-DE, server: 185.177.229.245, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 23-443-DE, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ, udp: true}
-  - {name: 23-444-US, server: 104.192.227.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4Nd3paa48vacfU0gFlORS6, udp: true}
   - {name: 23-450-GB, server: 185.5.38.111, port: 55988, type: ss, cipher: chacha20-ietf-poly1305, password: yCpSJMYkFQepG4o4QNKyo7qotpREJzwS1bbkyHNauphrKgYUhU3BLE1nbAeTqYZh8rM9KRexnYNgEWBmtZH1rjxd2biDqXJM, udp: true}
+  - {name: 23-452-US, server: 172.233.128.126, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1+ihlfKg826H, udp: true}
   - {name: 23-453-SE, server: 169.150.208.83, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-462-RELAY, server: hk2.lrzdx.uk, port: 443, type: vmess, uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /register, headers: {Host: hk2.lrzdx.uk}}, udp: true}
   - {name: 23-463-CA, server: 15.235.83.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -489,8 +489,8 @@ proxy-groups:
       - 23-441-RU
       - 23-442-DE
       - 23-443-DE
-      - 23-444-US
       - 23-450-GB
+      - 23-452-US
       - 23-453-SE
       - 23-462-RELAY
       - 23-463-CA
@@ -596,6 +596,7 @@ proxy-groups:
       - 09-322-CN
       - 10-382-CN
       - 23-442-DE
+      - 23-452-US
       - 23-462-RELAY
   - name: 测速3分组
     type: url-test
@@ -654,7 +655,6 @@ proxy-groups:
       - 09-324-CN
       - 10-384-RELAY
       - 23-404-FR
-      - 23-444-US
       - 23-464-AT
   - name: 测速5分组
     type: url-test
