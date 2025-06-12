@@ -9,7 +9,9 @@ vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA5LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAxLnRvcCIs
 trojan://73fda8fa-d085-30c2-8b10-9f83441e2bca@43.100.9.65:443?allowInsecure=1&sni=origin-a.akamaihd.net#04-109-CN
 trojan://73fda8fa-d085-30c2-8b10-9f83441e2bca@qoi.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-110-HK
 trojan://73fda8fa-d085-30c2-8b10-9f83441e2bca@qfb.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-111-HK
+trojan://73fda8fa-d085-30c2-8b10-9f83441e2bca@47.245.40.60:28469?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-112-JP
 trojan://73fda8fa-d085-30c2-8b10-9f83441e2bca@47.245.31.103:28463?allowInsecure=1&sni=www.microsoft365.com#04-113-JP
+trojan://73fda8fa-d085-30c2-8b10-9f83441e2bca@103.136.185.28:447?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-114-US
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE1LUNOIiwiYWRkIjoiMTIubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMiIsInR5cGUiOiJub25lIiwiaWQiOiI5OWU3ZTc5My0xMGZkLTM2NmEtYTM1YS01N2EzNmEwMTc2M2YiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMi5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE2LUNOIiwiYWRkIjoiMTcubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNyIsInR5cGUiOiJub25lIiwiaWQiOiI5OWU3ZTc5My0xMGZkLTM2NmEtYTM1YS01N2EzNmEwMTc2M2YiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNy5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE3LUNOIiwiYWRkIjoiMTEubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMSIsInR5cGUiOiJub25lIiwiaWQiOiI5OWU3ZTc5My0xMGZkLTM2NmEtYTM1YS01N2EzNmEwMTc2M2YiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMS5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
@@ -120,7 +122,6 @@ vmess://eyJ2IjoiMiIsInBzIjoiMDgtMjQ5LUNOIiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBv
 vmess://eyJ2IjoiMiIsInBzIjoiMDktMjUwLUNOIiwiYWRkIjoiMTIwLjIzMi4xNTMuNDAiLCJwb3J0IjoiNDMyOTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
 trojan://85d450b2-1c2b-11f0-8a7b-f23c913c8d2b@8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com:27233?allowInsecure=1&sni=8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com#09-251-CN
 trojan://3a45a384-4ea7-11ed-a8bf-f23c91cfbbc9@6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com:27233?allowInsecure=1&sni=6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com#09-252-CN
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@210.217.18.70:11171#09-258-KR
 ss://YWVzLTI1Ni1nY206OVhITzdLQlFFVzc1Slc4SA@185.237.185.77:20036#09-259-LT
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.223.21.221:989#09-260-HK
 trojan://4d631e24-97f7-11ea-8fc9-f23c913c8d2b@e1a43e10-sxsxs0-t1qkm7-lwn9.cm5.cnkuaishou.com:21233?allowInsecure=1&sni=e1a43e10-sxsxs0-t1qkm7-lwn9.cm5.cnkuaishou.com#10-268-CN
@@ -142,4 +143,3 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.154:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@92.118.205.228:990#23-327-PL
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZTZlOTMzYi04ODc0LTRiZjQtYTM4NC0wZGUyMTZlZjJiZjQ@pr.fastsoonlink.com:40030#23-336-PL
 trojan://4069c35c-54ea-48ee-9ffa-05d9a0302043@104.21.71.131:443?allowInsecure=1&sni=m5rt.999854.xyz#23-352-RELAY
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0TmQzcGFhNDh2YWNmVTBnRmxPUlM2@104.192.227.162:443#23-358-US
