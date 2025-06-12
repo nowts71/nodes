@@ -63,7 +63,9 @@ proxies:
   - {name: 04-109-CN, server: 43.100.9.65, port: 443, type: trojan, password: 73fda8fa-d085-30c2-8b10-9f83441e2bca, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-110-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 73fda8fa-d085-30c2-8b10-9f83441e2bca, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-111-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 73fda8fa-d085-30c2-8b10-9f83441e2bca, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-112-JP, server: 47.245.40.60, port: 28469, type: trojan, password: 73fda8fa-d085-30c2-8b10-9f83441e2bca, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.31.103, port: 28463, type: trojan, password: 73fda8fa-d085-30c2-8b10-9f83441e2bca, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-114-US, server: 103.136.185.28, port: 447, type: trojan, password: 73fda8fa-d085-30c2-8b10-9f83441e2bca, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-115-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-116-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 99e7e793-10fd-366a-a35a-57a36a01763f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -174,7 +176,6 @@ proxies:
   - {name: 09-250-CN, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-251-CN, server: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b, sni: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
   - {name: 09-252-CN, server: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 3a45a384-4ea7-11ed-a8bf-f23c91cfbbc9, sni: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 09-258-KR, server: 210.217.18.70, port: 11171, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 09-259-LT, server: 185.237.185.77, port: 20036, type: ss, cipher: aes-256-gcm, password: 9XHO7KBQEW75JW8H, udp: true}
   - {name: 09-260-HK, server: 154.223.21.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 10-268-CN, server: e1a43e10-sxsxs0-t1qkm7-lwn9.cm5.cnkuaishou.com, port: 21233, type: trojan, password: 4d631e24-97f7-11ea-8fc9-f23c913c8d2b, sni: e1a43e10-sxsxs0-t1qkm7-lwn9.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
@@ -196,7 +197,6 @@ proxies:
   - {name: 23-327-PL, server: 92.118.205.228, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-336-PL, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: ae6e933b-8874-4bf4-a384-0de216ef2bf4, udp: true}
   - {name: 23-352-RELAY, server: 104.21.71.131, port: 443, type: trojan, password: 4069c35c-54ea-48ee-9ffa-05d9a0302043, sni: m5rt.999854.xyz, skip-cert-verify: true, udp: true}
-  - {name: 23-358-US, server: 104.192.227.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4Nd3paa48vacfU0gFlORS6, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -225,7 +225,9 @@ proxy-groups:
       - 04-109-CN
       - 04-110-HK
       - 04-111-HK
+      - 04-112-JP
       - 04-113-JP
+      - 04-114-US
       - 04-115-CN
       - 04-116-CN
       - 04-117-CN
@@ -336,7 +338,6 @@ proxy-groups:
       - 09-250-CN
       - 09-251-CN
       - 09-252-CN
-      - 09-258-KR
       - 09-259-LT
       - 09-260-HK
       - 10-268-CN
@@ -358,7 +359,6 @@ proxy-groups:
       - 23-327-PL
       - 23-336-PL
       - 23-352-RELAY
-      - 23-358-US
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -431,6 +431,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-112-JP
       - 04-122-CN
       - 07-152-RU
       - 07-162-SG
@@ -473,6 +474,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
+      - 04-114-US
       - 04-124-CN
       - 07-144-CN
       - 07-154-RU
@@ -564,11 +566,9 @@ proxy-groups:
       - 08-228-NOWHERE
       - 08-238-NOWHERE
       - 08-248-HK
-      - 09-258-KR
       - 10-268-CN
       - 14-278-DK
       - 14-288-CN
-      - 23-358-US
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
