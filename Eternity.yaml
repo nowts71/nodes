@@ -129,7 +129,6 @@ proxies:
   - {name: 07-195-CN, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 40083, type: ss, cipher: chacha20-ietf-poly1305, password: 17cfc172-b858-471d-976c-11525783a87f, udp: true}
   - {name: 07-196-CN, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 51081, type: ss, cipher: chacha20-ietf-poly1305, password: 6e3accf4-66c9-4f18-8e7f-56551ed40f22, udp: true}
   - {name: 07-197-CN, server: js.yd.1.29d.cdnlinkms001.xyz, port: 25343, type: ss, cipher: chacha20-ietf-poly1305, password: Yt3ZB8DxiVxPi4Mg, udp: true}
-  - {name: 07-198-US, server: usa.test3.net, port: 443, type: trojan, password: ab33eed0-4684-11f0-8b81-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-199-US, server: usa.test3.net, port: 443, type: trojan, password: 9e937610-4684-11f0-a6b2-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-200-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-201-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
@@ -157,6 +156,7 @@ proxies:
   - {name: 07-223-NL, server: 77.246.98.67, port: 4343, type: ss, cipher: chacha20-ietf-poly1305, password: wZKkcqnHkoB64A1upA4K1M, udp: true}
   - {name: 07-224-HK, server: pt.mjt000.com, port: 443, type: trojan, password: 786334e7-dd13-4ef2-8efe-306c46cb8cf0, sni: pt.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 07-225-CN, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 51083, type: ss, cipher: chacha20-ietf-poly1305, password: 6e3accf4-66c9-4f18-8e7f-56551ed40f22, udp: true}
+  - {name: 07-226-US, server: iepl01.tube-cat.com, port: 20029, type: trojan, password: 1d99eb06-8f7c-4296-8c84-1e57084579a5, sni: VN.catxstar.com, skip-cert-verify: true, udp: true}
   - {name: 07-227-VN, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-228-VN, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-229-CN, server: ppy-boardv2.02ijp4uos1.download, port: 26133, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ppy-boardv2.02ijp4uos1.download}}, udp: true}
@@ -240,7 +240,7 @@ proxies:
   - {name: 23-372-US, server: lt.fxlcn.com, port: 45288, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-373-DE, server: blazexline.trbest1.ir, port: 30871, type: ss, cipher: chacha20-ietf-poly1305, password: 4EUcbie2HGvKymmLBBoIUssIOyvh0qWSvivvWaToEBY=, udp: true}
   - {name: 23-375-RU, server: 45.151.62.54, port: 28825, type: ss, cipher: chacha20-ietf-poly1305, password: 0zyDRZ1XmNXaaCAN7KEA8a, udp: true}
-  - {name: "23-376-JPtrojan//1d99eb06-8f7c-4296-8c84-1e57084579a5@iepl01.tube-cat.com20029?allowInsecure=1&sni=VN.catxstar.com#07-226-US", server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: ahL8QDXl9qt6SZt1oV9lhM, udp: true}
+  - {name: "23-376-JPtrojan//5038d53c-301c-36bd-b72f-ecb4912d0b3b@103.136.185.28447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-121-US", server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: ahL8QDXl9qt6SZt1oV9lhM, udp: true}
   - {name: 23-377-RELAY, server: 172.67.156.210, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 23-378-RELAY, server: 104.19.32.0, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 23-383-CA, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
@@ -338,7 +338,6 @@ proxy-groups:
       - 07-195-CN
       - 07-196-CN
       - 07-197-CN
-      - 07-198-US
       - 07-199-US
       - 07-200-US
       - 07-201-CN
@@ -366,6 +365,7 @@ proxy-groups:
       - 07-223-NL
       - 07-224-HK
       - 07-225-CN
+      - 07-226-US
       - 07-227-VN
       - 07-228-VN
       - 07-229-CN
@@ -449,7 +449,7 @@ proxy-groups:
       - 23-372-US
       - 23-373-DE
       - 23-375-RU
-      - 23-376-JPtrojan//1d99eb06-8f7c-4296-8c84-1e57084579a5@iepl01.tube-cat.com20029?allowInsecure=1&sni=VN.catxstar.com#07-226-US
+      - 23-376-JPtrojan//5038d53c-301c-36bd-b72f-ecb4912d0b3b@103.136.185.28447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-121-US
       - 23-377-RELAY
       - 23-378-RELAY
       - 23-383-CA
@@ -526,6 +526,7 @@ proxy-groups:
       - 14-311-CN
       - 23-361-RELAY
       - 23-371-GR
+      - 23-376-JPtrojan//5038d53c-301c-36bd-b72f-ecb4912d0b3b@103.136.185.28447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-121-US
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -645,13 +646,14 @@ proxy-groups:
       - 07-196-CN
       - 07-206-CN
       - 07-216-CN
+      - 07-226-US
       - 08-236-CN
       - 08-246-CN
       - 08-256-HK
       - 08-266-RELAY
       - 08-276-CN
       - 23-326-RELAY
-      - 23-376-JPtrojan//1d99eb06-8f7c-4296-8c84-1e57084579a5@iepl01.tube-cat.com20029?allowInsecure=1&sni=VN.catxstar.com#07-226-US
+      - 23-376-JPtrojan//5038d53c-301c-36bd-b72f-ecb4912d0b3b@103.136.185.28447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-121-US
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -689,7 +691,6 @@ proxy-groups:
       - 07-168-CN
       - 07-178-PY
       - 07-188-SG
-      - 07-198-US
       - 07-208-CN
       - 07-218-NL
       - 07-228-VN
