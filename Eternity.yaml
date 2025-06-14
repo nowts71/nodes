@@ -66,6 +66,7 @@ proxies:
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 71dcd3ad-6e75-3b81-b40f-d0d022893f7e, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28471, type: trojan, password: 71dcd3ad-6e75-3b81-b40f-d0d022893f7e, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-114-JP, server: 47.245.31.103, port: 28465, type: trojan, password: 71dcd3ad-6e75-3b81-b40f-d0d022893f7e, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: 71dcd3ad-6e75-3b81-b40f-d0d022893f7e, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -209,7 +210,6 @@ proxies:
   - {name: 09-304-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 10-540-RELAY, server: 172.67.170.51, port: 443, type: trojan, password: 21e5535e-4783-4a80-a735-24a1162d315c, sni: sscDfr5.999182.XyZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%2525252FcxZq9RPkYdTWbh4hKwvQX9", headers: {Host: sscDfr5.999182.XyZ}}, udp: true}
   - {name: 10-541-CN, server: 112.29.213.228, port: 46022, type: vmess, uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
-  - {name: 10-542-US, server: 51.81.203.57, port: 28860, type: vmess, uuid: 1784497d-03a1-40bb-bb8b-de4ffac7c59c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-543-RELAY, server: 104.21.96.1, port: 8443, type: vmess, uuid: 914584ee-3515-46ac-a09d-4677a2e9dc9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-544-RELAY, server: 104.21.28.26, port: 443, type: trojan, password: 21e5535e-4783-4a80-a735-24a1162d315c, sni: xxscdF56.999182.xYZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%2525252FcxZq9RPkYdTWbh4hKwvQX9", headers: {Host: xxscdF56.999182.xYZ}}, udp: true}
   - {name: 10-545-CN, server: 120.232.153.123, port: 52352, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -271,6 +271,7 @@ proxy-groups:
       - 04-112-HK
       - 04-113-JP
       - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -414,7 +415,6 @@ proxy-groups:
       - 09-304-CN
       - 10-540-RELAY
       - 10-541-CN
-      - 10-542-US
       - 10-543-RELAY
       - 10-544-RELAY
       - 10-545-CN
@@ -541,7 +541,6 @@ proxy-groups:
       - 08-252-NOWHERE
       - 08-262-NOWHERE
       - 09-302-CN
-      - 10-542-US
       - 23-562-DE
       - 23-602-SG
   - name: 测速3分组
@@ -606,6 +605,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-US
       - 04-125-CN
       - 07-145-CN
       - 07-155-UA
