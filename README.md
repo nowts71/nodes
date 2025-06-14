@@ -44,6 +44,7 @@ Fork from TopFreeProxies.
     trojan://eabb6b59-3301-3ed1-8723-393014a949fa@qfb.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-112-HK
     trojan://eabb6b59-3301-3ed1-8723-393014a949fa@47.245.40.60:28471?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-113-JP
     trojan://eabb6b59-3301-3ed1-8723-393014a949fa@47.245.31.103:28465?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-114-JP
+    trojan://eabb6b59-3301-3ed1-8723-393014a949fa@103.136.185.28:447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-115-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE2LUNOIiwiYWRkIjoiMTIubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMiIsInR5cGUiOiJub25lIiwiaWQiOiIyNzQyMDY0OC0yZDZlLTM3MjctYTdhNC02MjMzMzZjZTZlOWMiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMi5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE3LUNOIiwiYWRkIjoiMTcubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNyIsInR5cGUiOiJub25lIiwiaWQiOiIyNzQyMDY0OC0yZDZlLTM3MjctYTdhNC02MjMzMzZjZTZlOWMiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNy5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE4LUNOIiwiYWRkIjoiMTEubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMSIsInR5cGUiOiJub25lIiwiaWQiOiIyNzQyMDY0OC0yZDZlLTM3MjctYTdhNC02MjMzMzZjZTZlOWMiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMS5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
@@ -277,7 +278,6 @@ Fork from TopFreeProxies.
     trojan://6884d714-d3c4-4b49-aa20-767ea92837d6@194.76.18.122:443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252525252Fproxyip%252525253D194.76.18.122%252525253A443#23-414-KZ
     ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@23.154.136.132:5499#23-428-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.158.171.60:8080#23-438-FR
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx@142.4.216.225:80#23-441-CA
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvamNQMzZuMVNvdURjbkJnOUVPWlA4@9.163.232.180:1490#23-465-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.10:8080#23-468-LT
     
@@ -286,11 +286,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `354`
+合并节点总数: `370`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `354`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `370`
 
 
 ## 仓库声明
