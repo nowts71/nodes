@@ -66,6 +66,7 @@ proxies:
   - {name: 04-112-CN, server: 112.18.120.18, port: 23452, type: trojan, password: 0c52f193-0976-3a05-893c-aaae1bb21458, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-CN, server: 112.18.120.18, port: 23453, type: trojan, password: 0c52f193-0976-3a05-893c-aaae1bb21458, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-114-JP, server: 47.245.40.60, port: 28476, type: trojan, password: 0c52f193-0976-3a05-893c-aaae1bb21458, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-JP, server: 47.245.31.103, port: 28469, type: trojan, password: 0c52f193-0976-3a05-893c-aaae1bb21458, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -128,7 +129,6 @@ proxies:
   - {name: 07-185-VN, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-186-VN, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-187-CN, server: ppy-boardv2.02ijp4uos1.download, port: 26139, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ppy-boardv2.02ijp4uos1.download}}, udp: true}
-  - {name: 07-188-KR, server: 221.150.109.89, port: 11389, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 07-189-KR, server: 125.141.26.14, port: 5344, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 07-190-CN, server: 120.233.44.201, port: 21118, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k17.tudou211.com, skip-cert-verify: true, udp: true}
   - {name: 08-191-CN, server: gz.pddwdf.store, port: 47431, type: ss, cipher: chacha20-ietf-poly1305, password: 4e65a001-dbe9-4f76-ab24-9755e71fc75e, udp: true}
@@ -233,6 +233,7 @@ proxy-groups:
       - 04-112-CN
       - 04-113-CN
       - 04-114-JP
+      - 04-115-JP
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -295,7 +296,6 @@ proxy-groups:
       - 07-185-VN
       - 07-186-VN
       - 07-187-CN
-      - 07-188-KR
       - 07-189-KR
       - 07-190-CN
       - 08-191-CN
@@ -513,6 +513,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-JP
       - 04-125-CN
       - 07-145-CN
       - 07-165-CN
@@ -579,7 +580,6 @@ proxy-groups:
       - 07-158-CN
       - 07-168-RELAY
       - 07-178-RELAY
-      - 07-188-KR
       - 08-218-CN
       - 08-238-CN
       - 08-248-CN
