@@ -44,6 +44,7 @@ Fork from TopFreeProxies.
     trojan://0c52f193-0976-3a05-893c-aaae1bb21458@112.18.120.18:23452?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-112-CN
     trojan://0c52f193-0976-3a05-893c-aaae1bb21458@112.18.120.18:23453?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-113-CN
     trojan://0c52f193-0976-3a05-893c-aaae1bb21458@47.245.40.60:28476?allowInsecure=1&sni=steampipe.akamaized.net#04-114-JP
+    trojan://0c52f193-0976-3a05-893c-aaae1bb21458@47.245.31.103:28469?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-115-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE2LUNOIiwiYWRkIjoiMTIubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMiIsInR5cGUiOiJub25lIiwiaWQiOiI3MTY0ZTljNi03NWM5LTM3ZTYtYmZlYy02NjJiMTQ0ZTA4YTQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMi5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE3LUNOIiwiYWRkIjoiMTcubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNyIsInR5cGUiOiJub25lIiwiaWQiOiI3MTY0ZTljNi03NWM5LTM3ZTYtYmZlYy02NjJiMTQ0ZTA4YTQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNy5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE4LUNOIiwiYWRkIjoiMTEubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMSIsInR5cGUiOiJub25lIiwiaWQiOiI3MTY0ZTljNi03NWM5LTM3ZTYtYmZlYy02NjJiMTQ0ZTA4YTQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMS5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
@@ -106,7 +107,6 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.25:38388#07-185-VN
     ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.27:38388#07-186-VN
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTg3LUNOIiwiYWRkIjoicHB5LWJvYXJkdjIuMDJpanA0dW9zMS5kb3dubG9hZCIsInBvcnQiOiIyNjEzOSIsInR5cGUiOiJub25lIiwiaWQiOiJhYTE1Yjk3YS0yNGIxLTNhMzEtODI0YS1iYzUyZjVhMTViYWMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJwcHktYm9hcmR2Mi4wMmlqcDR1b3MxLmRvd25sb2FkIiwidGxzIjoiIn0=
-    ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@221.150.109.89:11389#07-188-KR
     ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@125.141.26.14:5344#07-189-KR
     trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21118?allowInsecure=1&sni=k17.tudou211.com#07-190-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZTY1YTAwMS1kYmU5LTRmNzYtYWIyNC05NzU1ZTcxZmM3NWU@gz.pddwdf.store:47431#08-191-CN
@@ -186,11 +186,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `253`
+合并节点总数: `255`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `253`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `255`
 
 
 ## 仓库声明
