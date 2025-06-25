@@ -91,7 +91,6 @@ proxies:
   - {name: 05-161-KR, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 05-162-CN, server: wb.kaiqsz.com, port: 49921, type: trojan, password: a25ed269-105b-4f15-bee2-bc2785d38912, sni: wb.kaiqsz.com, skip-cert-verify: true, udp: true}
   - {name: 05-163-RELAY, server: 104.21.13.36, port: 443, type: trojan, password: a7c9c017-db10-4d15-b01b-0634db498b57, sni: ERt5.0890604.XyZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FOBmXcXufeTh7sLJtI1", headers: {Host: ERt5.0890604.XyZ}}, udp: true}
-  - {name: 05-167-HK, server: ss.006.node-for-bigairport.win, port: 22356, type: ss, cipher: aes-256-gcm, password: c69374da-2208-4cbd-b81e-cdf88b5e7f53, udp: true}
   - {name: 05-168-CN, server: v5.heduian.link, port: 30805, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v5.heduian.link}}, udp: true}
   - {name: 07-173-CN, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-174-TW, server: tw40.453521.xyz, port: 3663, type: trojan, password: a348278e-71ac-499c-8069-28b1af18c372, skip-cert-verify: true, udp: true}
@@ -215,6 +214,7 @@ proxies:
   - {name: 10-574-US, server: 107.167.5.148, port: 31001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
   - {name: 10-575-US, server: 38.11.50.198, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
   - {name: 10-576-US, server: 64.32.17.45, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
+  - {name: 14-599-SG, server: 13.250.125.114, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
   - {name: 14-600-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-601-CN, server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com, port: 17232, type: vmess, uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com}}, udp: true}
   - {name: 14-603-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -275,7 +275,6 @@ proxy-groups:
       - 05-161-KR
       - 05-162-CN
       - 05-163-RELAY
-      - 05-167-HK
       - 05-168-CN
       - 07-173-CN
       - 07-174-TW
@@ -399,6 +398,7 @@ proxy-groups:
       - 10-574-US
       - 10-575-US
       - 10-576-US
+      - 14-599-SG
       - 14-600-NL
       - 14-601-CN
       - 14-603-VN
@@ -596,7 +596,6 @@ proxy-groups:
       - 04-007-RELAY
       - 04-117-CN
       - 05-147-CN
-      - 05-167-HK
       - 07-177-CN
       - 07-187-CN
       - 07-197-RELAY
@@ -654,6 +653,7 @@ proxy-groups:
       - 09-339-JP
       - 09-349-CN
       - 10-569-CN
+      - 14-599-SG
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
