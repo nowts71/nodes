@@ -107,10 +107,10 @@ proxies:
   - {name: 07-175-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 07-176-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 07-177-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: 07-178-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: b806b388-5f97-11ee-8014-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 07-179-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 56b05600-e140-11ec-a3de-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 07-180-CN, server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com, port: 4136, type: vmess, uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 156494db-sukw00-sw1b1x-4550.d.volczijie.com}}, udp: true}
   - {name: 07-181-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: 07-182-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 07-183-HK, server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net}}, udp: true}
   - {name: 07-184-HK, server: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net}}, udp: true}
   - {name: 07-185-HK, server: a9316cd5-sx4v40-t1ppk8-1i3g8.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 437cef58-f10b-11ef-8eaf-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a9316cd5-sx4v40-t1ppk8-1i3g8.hgc1.tcpbbr.net}}, udp: true}
@@ -328,10 +328,10 @@ proxy-groups:
       - 07-175-HK
       - 07-176-HK
       - 07-177-HK
-      - 07-178-HK
       - 07-179-HK
       - 07-180-CN
       - 07-181-HK
+      - 07-182-HK
       - 07-183-HK
       - 07-184-HK
       - 07-185-HK
@@ -563,6 +563,7 @@ proxy-groups:
       - 05-152-CN
       - 07-162-CN
       - 07-172-HK
+      - 07-182-HK
       - 07-192-HK
       - 07-202-CN
       - 07-212-FR
@@ -724,7 +725,6 @@ proxy-groups:
       - 05-138-CN
       - 07-158-CN
       - 07-168-HK
-      - 07-178-HK
       - 07-188-HK
       - 07-198-HK
       - 07-208-CN
