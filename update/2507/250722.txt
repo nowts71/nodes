@@ -23,6 +23,7 @@ vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTIyLUNOIiwiYWRkIjoiMTMubWFtYW1hamQuc2l0ZSIsInBv
 vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTIzLUNOIiwiYWRkIjoiMTQubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNCIsInR5cGUiOiJub25lIiwiaWQiOiIyMjMxMWQzYS1kMmU0LTM3YTItYTdlYS02ZDRiOWQyMTc0Y2YiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNC5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
 trojan://Aimer@92.243.74.180:8443?allowInsecure=1&sni=tyep.esslh.filegear-sg.me&ws=1&wspath=%2525252F#05-140-RELAY
 trojan://74260628090146500@stirring-parakeet.shiner427.skin:443?allowInsecure=1#09-280-NL
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.94.141.91:443#14-525-US
 ss://YWVzLTI1Ni1nY206aVVCMDkyM1JCQQ@154.3.8.151:30067#14-527-US
 trojan://ttfang@20.235.105.146:443?allowInsecure=1&sni=ttfang.fange.me&ws=1&wspath=%2525252F#14-529-IN
 trojan://trojan@91.193.58.0:443?allowInsecure=1&sni=wahaha.yingyangkuaixian.dpdns.org&ws=1&wspath=%2525252F#14-530-RELAY
@@ -62,7 +63,6 @@ trojan://blue2024@104.17.150.255:443?allowInsecure=1&sni=td.promote.icu#23-605-R
 trojan://blue2024@162.159.44.192:443?allowInsecure=1&sni=tb.promote.icu&ws=1&wspath=%2525252F#23-610-RELAY
 trojan://blue2024@104.19.234.198:443?allowInsecure=1&sni=ha.lii2010.us.kg&ws=1&wspath=%2525252F%2525253Fed#23-611-RELAY
 trojan://blue2024@104.17.33.7:443?allowInsecure=1&sni=td.promote.icu#23-612-RELAY
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131:443#23-613-US
 trojan://blue2024@162.159.141.145:443?allowInsecure=1&sni=td.promote.icu#23-614-RELAY
 trojan://blue2024@172.67.109.241:443?allowInsecure=1&sni=hb.lii2010.us.kg&ws=1&wspath=%2525252F#23-615-RELAY
 trojan://f0d584bc-342f-4443-ba24-79e4d0e504b1@198.41.214.224:2052?allowInsecure=1&ws=1&wspath=%2525252F%2525253Fed%2525253D2560#23-616-RELAY
