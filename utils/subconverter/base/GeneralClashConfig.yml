@@ -78,7 +78,7 @@ sniffer:
   skip-domain:
     - 'courier.push.apple.com'
     - 'Mijia Cloud'
-external-ui: /opt/app/clash/clash_webs/
+# external-ui: /opt/app/clash/clash_webs/
 
 
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
