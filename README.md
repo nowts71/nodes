@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `46`
+高速节点数量: `45`
 <details>
   <summary>展开复制节点</summary>
 
@@ -52,7 +52,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDEzOC1SRUxBWSIsImFkZCI6IjIwNS4yMzMuMTgxLjI0MSIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjI0OGJlNTJiLTM1ZDktMzRjYi05YjczLWUxMmI3OGJjMTMwMSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDEzOS1OT1dIRVJFIiwiYWRkIjoiMTAzLjE2MC4yMDQuMjQxIiwicG9ydCI6Ijg4ODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjQ4YmU1MmItMzVkOS0zNGNiLTliNzMtZTEyYjc4YmMxMzAxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbiIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDE0MC1SRUxBWSIsImFkZCI6IjE5OS4xODEuMTk3LjYwIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJkZTk0Y2MwYS0wNTkyLTQ5NjktYjFmYy05N2VhOGYwZWEwYjMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3VzLmtrcC5tZS5ldS5vcmcvYWEiLCJob3N0IjoiIiwidGxzIjoiIn0=
-    vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDE0MS1SRUxBWSIsImFkZCI6IjEwOC4xNjUuMjE2LjI0MSIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjI0OGJlNTJiLTM1ZDktMzRjYi05YjczLWUxMmI3OGJjMTMwMSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4iLCJob3N0IjoiIiwidGxzIjoiIn0=
+    trojan://7248e825-887c-48b9-83bc-c26bc6392bf8@172.67.214.21:443?allowInsecure=1&sni=xXcdvFgt.191268.XYz&ws=1&wspath=%2525252FctdmgeIg3NII3ibrzzKXJGy3S1#16-0142-RELAY
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDE0My1SRUxBWSIsImFkZCI6IjEwMy4xMTYuNy4yNDEiLCJwb3J0IjoiODg4MCIsInR5cGUiOiJub25lIiwiaWQiOiIyNDhiZTUyYi0zNWQ5LTM0Y2ItOWI3My1lMTJiNzhiYzEzMDEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDE0NC1SRUxBWSIsImFkZCI6IjE0MS4xMDEuMTE1LjY1IiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjVmNzUxYzZlLTUwYjEtNDc5Ny1iYThlLTZmZmUzMjRhMGJjZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc2hpcmtlciIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     trojan://d0d08cddacc3190ea81b1b792e1b5fde@143.110.155.169:443?allowInsecure=1&sni=www.baidu.com#16-0145-US
@@ -72,7 +72,6 @@ Fork from TopFreeProxies.
     trojan://92435aa8-f3b6-466a-ad58-c55cbb6d2acf@sg.mjt000.com:443?allowInsecure=1&sni=sg.mjt000.com#16-0159-HK
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDE2MC1ISyIsImFkZCI6ImhrdC5nb3RvY2hpbmF0b3duLm5ldCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI2ZTMxMzU5OC1hMDg4LTExZWEtYTIyZS1mMjNjOTFjZmJiYzkiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJoa3QuZ290b2NoaW5hdG93bi5uZXQiLCJ0bHMiOiIifQ==
     trojan://d0d08cddacc3190ea81b1b792e1b5fde@157.230.32.243:443?allowInsecure=1&sni=www.baidu.com#16-0237-SG
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpEa0E3T3hTYWJSdHRQSnpPOUNjZjdM@162.243.245.151:31100#19-0228-UStrojan%2F%2F7248e825-887c-48b9-83bc-c26bc6392bf8%40172.67.214.21443%3FallowInsecure%3D1%26sni%3DxXcdvFgt.191268.XYz%26ws%3D1%26wspath%3D%25252FctdmgeIg3NII3ibrzzKXJGy3S1%2316-0142-RELAY
     vmess://eyJ2IjoiMiIsInBzIjoiMTktMDIyOS1SRUxBWSIsImFkZCI6InRlc3QuZmxoYS5ydSIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiIyYmFiNmI4Zi04ZDZlLTQ2M2EtODMzMS1iOWRlM2Q1NjkyMWQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLzJiYWI2YjhmLThkNmUtNDYzYS04MzMxLWI5ZGUzZDU2OTIxZC12bWVzcyIsImhvc3QiOiJ0ZXN0LmZsaGEucnUiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTktMDIzMC1DTiIsImFkZCI6InY4LmhlZHVpYW4ubGluayIsInBvcnQiOiIzMDgwOCIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiL29vb28iLCJob3N0IjoidjguaGVkdWlhbi5saW5rIiwidGxzIjoiIn0=
     
@@ -81,11 +80,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `47`
+合并节点总数: `118`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `47`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `118`
 
 
 ## 仓库声明
