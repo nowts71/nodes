@@ -8,7 +8,7 @@ log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: 192.168.1.253:9090
 secret: 0
 redir-port: 7892
-external-ui: /opt/app/clash/clash_webs/
+# external-ui: /opt/app/clash/clash_webs/
 
 
 dns:
