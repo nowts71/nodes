@@ -56,7 +56,6 @@ proxies:
   - {name: 05-0007-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
   - {name: 05-0010-CN, server: hzhz1.sssyun.xyz, port: 29527, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg%253D%253D%253AZDRlZWFhN2ItNDNjNi00OQ%253D%253D, udp: true}
   - {name: 08-0023-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
-  - {name: 08-0024-US, server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-0025-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 08-0027-PT, server: 185.231.233.112, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0028-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
@@ -80,7 +79,7 @@ proxies:
   - {name: 08-0051-US, server: 205.134.180.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R9Xc4dHXGv3c, udp: true}
   - {name: 08-0052-RELAY, server: 104.16.43.54, port: 2082, type: vmess, uuid: 753443e5-052c-4476-9cfa-3f434ff2f986, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048"}, udp: true}
   - {name: 09-0053-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0054-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0054-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0055-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0056-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0057-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -262,7 +261,6 @@ proxy-groups:
       - 05-0007-HK
       - 05-0010-CN
       - 08-0023-KR
-      - 08-0024-US
       - 08-0025-HK
       - 08-0027-PT
       - 08-0028-CN
@@ -286,7 +284,7 @@ proxy-groups:
       - 08-0051-US
       - 08-0052-RELAY
       - 09-0053-US
-      - 09-0054-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
+      - 09-0054-US
       - 09-0055-US
       - 09-0056-US
       - 09-0057-US
@@ -575,10 +573,9 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 08-0024-US
       - 08-0034-CN
       - 08-0044-JP
-      - 09-0054-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
+      - 09-0054-US
       - 09-0064-CA
       - 09-0074-GB
       - 09-0084-GB
@@ -600,7 +597,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 08-0025-HK
-      - 09-0054-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
       - 09-0055-US
       - 09-0065-NL
       - 09-0075-NL
