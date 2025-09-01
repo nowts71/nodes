@@ -79,7 +79,7 @@ proxies:
   - {name: 08-0048-NOWHERE, server: 3u1s02.a3b5wy.xyz, port: 36506, type: trojan, password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610, sni: us02.abpilot.xyz, skip-cert-verify: true, udp: true}
   - {name: 08-0051-US, server: 205.134.180.143, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: R9Xc4dHXGv3c, udp: true}
   - {name: 08-0052-RELAY, server: 104.16.43.54, port: 2082, type: vmess, uuid: 753443e5-052c-4476-9cfa-3f434ff2f986, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048"}, udp: true}
-  - {name: 09-0053-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0053-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0054-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0055-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0056-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -88,7 +88,7 @@ proxies:
   - {name: 09-0059-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-0060-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0061-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-0062-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0063-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0064-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0065-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
@@ -285,7 +285,7 @@ proxy-groups:
       - 08-0048-NOWHERE
       - 08-0051-US
       - 08-0052-RELAY
-      - 09-0053-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
+      - 09-0053-US
       - 09-0054-US
       - 09-0055-US
       - 09-0056-US
@@ -294,7 +294,7 @@ proxy-groups:
       - 09-0059-US
       - 09-0060-US
       - 09-0061-CA
-      - 09-0062-US
+      - 09-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
       - 09-0063-US
       - 09-0064-CA
       - 09-0065-NL
@@ -529,7 +529,7 @@ proxy-groups:
       - 08-0032-RELAY
       - 08-0042-RELAY
       - 08-0052-RELAY
-      - 09-0062-US
+      - 09-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
       - 09-0072-AE
       - 09-0082-US
       - 09-0092-US
@@ -553,7 +553,7 @@ proxy-groups:
       - 08-0023-KR
       - 08-0033-RELAY
       - 08-0043-CN
-      - 09-0053-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
+      - 09-0053-US
       - 09-0063-US
       - 09-0073-GB
       - 09-0083-NL
@@ -600,8 +600,8 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 08-0025-HK
-      - 09-0053-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
       - 09-0055-US
+      - 09-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
       - 09-0065-NL
       - 09-0075-NL
       - 09-0085-NL
