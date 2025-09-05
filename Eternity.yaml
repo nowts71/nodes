@@ -53,7 +53,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 05-0001-RELAY, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 05-0002-US, server: 198.62.62.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 05-0005-RELAY, server: 199.181.197.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 05-0006-RELAY, server: 213.219.247.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 05-0007-RELAY, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -97,62 +96,62 @@ proxies:
   - {name: 06-0051-US, server: 192.0.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 06-0052-RELAY, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 06-0053-US, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0055-RELAY, server: 185.162.230.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0056-RELAY, server: 185.193.28.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0057-RELAY, server: 185.174.138.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0058-RELAY, server: 195.245.221.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0059-RELAY, server: 185.148.104.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0060-RELAY, server: 194.53.53.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0061-RELAY, server: 205.233.181.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0062-RELAY, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0063-RELAY, server: 194.152.44.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0064-RELAY, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 08-0065-RELAY, server: 185.162.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0066-RELAY, server: 213.241.198.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0067-RELAY, server: 213.182.199.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0068-RELAY, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0069-RELAY, server: 185.221.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0070-RELAY, server: 216.205.52.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0071-RELAY, server: 204.93.210.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0072-RELAY, server: 195.85.23.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0073-US, server: 198.12.145.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0074-RELAY, server: 198.202.211.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0075-RELAY, server: 198.177.56.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0076-US, server: 198.71.188.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0077-US, server: 198.71.232.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0078-RELAY, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0079-US, server: 198.71.189.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0080-US, server: 198.12.144.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0081-US, server: 216.24.57.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0055-US, server: 216.24.57.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0056-RELAY, server: 185.162.230.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0057-RELAY, server: 185.18.250.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0058-RELAY, server: 194.53.53.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0059-RELAY, server: 185.162.229.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0060-RELAY, server: 185.193.28.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0061-RELAY, server: 185.174.138.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0062-RELAY, server: 205.233.181.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0063-RELAY, server: 185.221.160.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0064-RELAY, server: 195.245.221.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0065-RELAY, server: 185.162.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0066-RELAY, server: 185.148.104.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 08-0067-RELAY, server: 185.193.31.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0068-RELAY, server: 213.241.198.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0069-RELAY, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0070-RELAY, server: 213.182.199.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0071-RELAY, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0072-RELAY, server: 216.205.52.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0073-RELAY, server: 204.93.210.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0074-RELAY, server: 195.85.23.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0075-US, server: 198.12.145.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0076-RELAY, server: 198.202.211.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0077-RELAY, server: 198.177.56.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0078-US, server: 198.71.188.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0079-US, server: 198.71.232.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0080-US, server: 198.71.189.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0081-US, server: 198.12.144.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0082-US, server: 199.34.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0083-US, server: 198.71.233.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0084-US, server: 198.71.190.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0085-US, server: 198.71.191.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0086-RELAY, server: 198.177.57.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0087-RELAY, server: 194.59.5.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0088-RELAY, server: 194.36.55.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0089-RELAY, server: 193.227.99.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0090-US, server: 192.169.221.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0091-US, server: 192.169.223.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0092-US, server: 192.169.220.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0093-US, server: 192.169.222.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0094-RELAY, server: 193.124.18.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0095-RELAY, server: 188.164.158.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0096-RELAY, server: 188.164.159.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0097-RELAY, server: 190.93.244.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0098-RELAY, server: 185.207.199.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0099-RELAY, server: 190.93.247.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0100-RELAY, server: 190.93.246.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0101-RELAY, server: 190.93.245.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0102-RELAY, server: 185.193.29.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0103-RELAY, server: 185.207.197.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0104-RELAY, server: 185.207.196.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0105-RELAY, server: 185.193.31.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0106-RELAY, server: 185.207.198.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0107-RELAY, server: 185.193.30.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0108-RELAY, server: 185.170.166.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0109-RELAY, server: 185.149.135.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
-  - {name: 09-0110-RELAY, server: 185.162.228.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0087-RELAY, server: 194.152.44.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0088-RELAY, server: 194.59.5.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0089-RELAY, server: 194.36.55.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0090-RELAY, server: 193.227.99.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0091-RELAY, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0092-US, server: 192.169.221.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0093-US, server: 192.169.223.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0094-US, server: 192.169.220.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0095-US, server: 192.169.222.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0096-RELAY, server: 193.124.18.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0097-RELAY, server: 188.164.158.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0098-RELAY, server: 188.164.159.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0099-RELAY, server: 190.93.244.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0100-RELAY, server: 185.207.199.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0101-RELAY, server: 190.93.247.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0102-RELAY, server: 190.93.246.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0103-RELAY, server: 190.93.245.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0104-RELAY, server: 185.193.29.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0105-RELAY, server: 185.207.197.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0106-RELAY, server: 185.207.196.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0107-RELAY, server: 185.207.198.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0108-RELAY, server: 185.193.30.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0109-RELAY, server: 185.170.166.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 09-0110-RELAY, server: 185.149.135.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0111-RELAY, server: 185.159.247.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0112-RELAY, server: 185.135.9.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0113-RELAY, server: 185.158.133.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -176,9 +175,10 @@ proxies:
   - {name: 09-0131-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0132-US, server: 104.192.226.106, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0133-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0134-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.358080#09-0200-LT, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0135-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0134-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0135-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.1798080#09-0217-NL, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0136-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: "09-0137-JPtrojan//slch2024@198.62.62.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3#05-0002-US", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0138-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0139-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0140-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
@@ -241,6 +241,7 @@ proxies:
   - {name: 09-0197-LT, server: 45.87.175.65, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-0198-NL, server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-0199-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 09-0200-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-0201-PR, server: 185.47.255.22, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0202-FR, server: 45.158.171.70, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-0203-RO, server: 185.126.237.38, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -257,7 +258,6 @@ proxies:
   - {name: 09-0214-BR, server: 38.54.57.90, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0215-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-0216-HK, server: 203.23.128.33, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-0217-NL, server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 09-0218-LT, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
   - {name: 09-0219-KR, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0220-SE, server: 45.91.171.116, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: sto.freeguard.org, skip-cert-verify: true, udp: true}
@@ -310,6 +310,7 @@ proxies:
   - {name: 09-0277-VN, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 09-0278-HK, server: 1.36.77.183, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0279-VN, server: 103.186.154.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 09-0280-US, server: 137.175.124.167, port: 20086, type: vmess, uuid: b4bce500-11fe-4f8f-a344-01ac247af9bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-0281-VN, server: 103.186.155.22, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 09-0282-VN, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 09-0283-VN, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -357,7 +358,6 @@ proxy-groups:
       - 测速9分组
       - 测速10分组
       - 05-0001-RELAY
-      - 05-0002-US
       - 05-0005-RELAY
       - 05-0006-RELAY
       - 05-0007-RELAY
@@ -401,7 +401,7 @@ proxy-groups:
       - 06-0051-US
       - 06-0052-RELAY
       - 06-0053-US
-      - 08-0055-RELAY
+      - 08-0055-US
       - 08-0056-RELAY
       - 08-0057-RELAY
       - 08-0058-RELAY
@@ -412,19 +412,19 @@ proxy-groups:
       - 08-0063-RELAY
       - 08-0064-RELAY
       - 08-0065-RELAY
-      - 09-0066-RELAY
-      - 09-0067-RELAY
+      - 08-0066-RELAY
+      - 08-0067-RELAY
       - 09-0068-RELAY
       - 09-0069-RELAY
       - 09-0070-RELAY
       - 09-0071-RELAY
       - 09-0072-RELAY
-      - 09-0073-US
+      - 09-0073-RELAY
       - 09-0074-RELAY
-      - 09-0075-RELAY
-      - 09-0076-US
-      - 09-0077-US
-      - 09-0078-RELAY
+      - 09-0075-US
+      - 09-0076-RELAY
+      - 09-0077-RELAY
+      - 09-0078-US
       - 09-0079-US
       - 09-0080-US
       - 09-0081-US
@@ -436,12 +436,12 @@ proxy-groups:
       - 09-0087-RELAY
       - 09-0088-RELAY
       - 09-0089-RELAY
-      - 09-0090-US
-      - 09-0091-US
+      - 09-0090-RELAY
+      - 09-0091-RELAY
       - 09-0092-US
       - 09-0093-US
-      - 09-0094-RELAY
-      - 09-0095-RELAY
+      - 09-0094-US
+      - 09-0095-US
       - 09-0096-RELAY
       - 09-0097-RELAY
       - 09-0098-RELAY
@@ -480,9 +480,10 @@ proxy-groups:
       - 09-0131-US
       - 09-0132-US
       - 09-0133-US
-      - 09-0134-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.358080#09-0200-LT
-      - 09-0135-US
+      - 09-0134-US
+      - 09-0135-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.1798080#09-0217-NL
       - 09-0136-US
+      - 09-0137-JPtrojan//slch2024@198.62.62.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3#05-0002-US
       - 09-0138-US
       - 09-0139-FR
       - 09-0140-NL
@@ -545,6 +546,7 @@ proxy-groups:
       - 09-0197-LT
       - 09-0198-NL
       - 09-0199-VN
+      - 09-0200-LT
       - 09-0201-PR
       - 09-0202-FR
       - 09-0203-RO
@@ -561,7 +563,6 @@ proxy-groups:
       - 09-0214-BR
       - 09-0215-US
       - 09-0216-HK
-      - 09-0217-NL
       - 09-0218-LT
       - 09-0219-KR
       - 09-0220-SE
@@ -614,6 +615,7 @@ proxy-groups:
       - 09-0277-VN
       - 09-0278-HK
       - 09-0279-VN
+      - 09-0280-US
       - 09-0281-VN
       - 09-0282-VN
       - 09-0283-VN
@@ -707,7 +709,7 @@ proxy-groups:
       - 08-0061-RELAY
       - 09-0071-RELAY
       - 09-0081-US
-      - 09-0091-US
+      - 09-0091-RELAY
       - 09-0101-RELAY
       - 09-0111-RELAY
       - 09-0121-US
@@ -734,7 +736,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0002-US
       - 05-0012-RELAY
       - 06-0022-RELAY
       - 06-0032-RELAY
@@ -747,6 +748,7 @@ proxy-groups:
       - 09-0112-RELAY
       - 09-0122-US
       - 09-0132-US
+      - 09-0137-JPtrojan//slch2024@198.62.62.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3#05-0002-US
       - 09-0142-NL
       - 09-0152-GB
       - 09-0162-AE
@@ -775,7 +777,7 @@ proxy-groups:
       - 06-0043-US
       - 06-0053-US
       - 08-0063-RELAY
-      - 09-0073-US
+      - 09-0073-RELAY
       - 09-0083-US
       - 09-0093-US
       - 09-0103-RELAY
@@ -808,11 +810,11 @@ proxy-groups:
       - 08-0064-RELAY
       - 09-0074-RELAY
       - 09-0084-US
-      - 09-0094-RELAY
+      - 09-0094-US
       - 09-0104-RELAY
       - 09-0114-MD
       - 09-0124-US
-      - 09-0134-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.358080#09-0200-LT
+      - 09-0134-US
       - 09-0144-GB
       - 09-0154-FR
       - 09-0164-CH
@@ -841,15 +843,15 @@ proxy-groups:
       - 06-0025-FR
       - 06-0035-RELAY
       - 06-0045-US
-      - 08-0055-RELAY
+      - 08-0055-US
       - 08-0065-RELAY
-      - 09-0075-RELAY
+      - 09-0075-US
       - 09-0085-US
-      - 09-0095-RELAY
+      - 09-0095-US
       - 09-0105-RELAY
       - 09-0115-CA
       - 09-0125-CA
-      - 09-0135-US
+      - 09-0135-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.1798080#09-0217-NL
       - 09-0145-GB
       - 09-0155-SK
       - 09-0165-CH
@@ -879,8 +881,8 @@ proxy-groups:
       - 06-0036-RELAY
       - 06-0046-US
       - 08-0056-RELAY
-      - 09-0066-RELAY
-      - 09-0076-US
+      - 08-0066-RELAY
+      - 09-0076-RELAY
       - 09-0086-RELAY
       - 09-0096-RELAY
       - 09-0106-RELAY
@@ -917,13 +919,15 @@ proxy-groups:
       - 06-0037-RELAY
       - 06-0047-RELAY
       - 08-0057-RELAY
-      - 09-0067-RELAY
-      - 09-0077-US
+      - 08-0067-RELAY
+      - 09-0077-RELAY
       - 09-0087-RELAY
       - 09-0097-RELAY
       - 09-0107-RELAY
       - 09-0117-LT
       - 09-0127-US
+      - 09-0135-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.1798080#09-0217-NL
+      - 09-0137-JPtrojan//slch2024@198.62.62.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3#05-0002-US
       - 09-0147-GB
       - 09-0157-FR
       - 09-0167-CA
@@ -931,7 +935,6 @@ proxy-groups:
       - 09-0187-TW
       - 09-0197-LT
       - 09-0207-NL
-      - 09-0217-NL
       - 09-0227-DE
       - 09-0237-RELAY
       - 09-0257-AE
@@ -952,7 +955,7 @@ proxy-groups:
       - 06-0048-RELAY
       - 08-0058-RELAY
       - 09-0068-RELAY
-      - 09-0078-RELAY
+      - 09-0078-US
       - 09-0088-RELAY
       - 09-0098-RELAY
       - 09-0108-RELAY
@@ -1021,23 +1024,24 @@ proxy-groups:
       - 08-0060-RELAY
       - 09-0070-RELAY
       - 09-0080-US
-      - 09-0090-US
+      - 09-0090-RELAY
       - 09-0100-RELAY
       - 09-0110-RELAY
       - 09-0120-NL
       - 09-0130-US
-      - 09-0134-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.358080#09-0200-LT
       - 09-0140-NL
       - 09-0150-NL
       - 09-0160-NL
       - 09-0170-GB
       - 09-0180-DK
       - 09-0190-LT
+      - 09-0200-LT
       - 09-0210-LT
       - 09-0220-SE
       - 09-0230-AT
       - 09-0240-RELAY
       - 09-0270-VN
+      - 09-0280-US
       - 09-0290-IN
       - 23-0310-DE
   - name: 广告拦截
