@@ -55,7 +55,7 @@ proxies:
   - {name: 05-0001-CN, server: gw.liangyuandianwan.com, port: 35608, type: ss, cipher: chacha20-ietf-poly1305, password: 102826c0-8ad3-4417-8843-6da0f5c80cfe, udp: true}
   - {name: 05-0002-CN, server: gw.liangyuandianwan.com, port: 35602, type: ss, cipher: chacha20-ietf-poly1305, password: 102826c0-8ad3-4417-8843-6da0f5c80cfe, udp: true}
   - {name: 05-0005-RELAY, server: s2.db-link.in, port: 80, type: vmess, uuid: 305419ed-4ef5-3e5a-8d48-b803c58853d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.ine0b757045bfc996e6868fcf774241daf, headers: {Host: s2.db-link.in}}, udp: true}
-  - {name: 05-0007-US, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kampong.org}}, udp: true}
+  - {name: 05-0007-PL, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kampong.org}}, udp: true}
   - {name: 05-0016-RELAY, server: 167.68.4.199, port: 2053, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
   - {name: 05-0018-RELAY, server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, headers: {Host: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG}}, udp: true}
   - {name: 05-0019-RELAY, server: s2.db-link.in, port: 80, type: vmess, uuid: 53cddd30-34a1-32dd-b598-c1c4c8a0f813, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.ine718b905d2cb60ff2d0b688f826d3e7c, headers: {Host: s2.db-link.in}}, udp: true}
@@ -69,7 +69,6 @@ proxies:
   - {name: 06-0034-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 06-0036-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 06-0037-LT, server: ltnl15.saint.ydns.eu, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 06-0038-SG, server: 38.180.249.177, port: 8443, type: trojan, password: installshield, sni: 38.180.249.177, skip-cert-verify: true, udp: true}
   - {name: 06-0041-PY, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 06-0043-TR, server: 83.217.9.210, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oC9c1kPkYbkg, udp: true}
   - {name: 06-0045-TW, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -96,6 +95,7 @@ proxies:
   - {name: 23-0071-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45, udp: true}
   - {name: 23-0072-FR, server: 62.133.62.109, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jifuR2NTM0Yt, udp: true}
   - {name: 23-0075-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN"}, udp: true}
+  - {name: 23-0077-JP, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
   - {name: 23-0081-CH, server: 45.95.232.236, port: 4248, type: ss, cipher: chacha20-ietf-poly1305, password: PtHv4bO4jPtBsHWSl1n5Qd, udp: true}
   - {name: 23-0083-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMDI4MjZjMC04YWQzLTQ0MTctODg0My02ZGEwZjVjODBjZmU@gw.liangyuandianwan.com35604#05-0000-CN, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-0100-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
@@ -123,7 +123,7 @@ proxy-groups:
       - 05-0001-CN
       - 05-0002-CN
       - 05-0005-RELAY
-      - 05-0007-US
+      - 05-0007-PL
       - 05-0016-RELAY
       - 05-0018-RELAY
       - 05-0019-RELAY
@@ -137,7 +137,6 @@ proxy-groups:
       - 06-0034-KR
       - 06-0036-LT
       - 06-0037-LT
-      - 06-0038-SG
       - 06-0041-PY
       - 06-0043-TR
       - 06-0045-TW
@@ -164,6 +163,7 @@ proxy-groups:
       - 23-0071-AT
       - 23-0072-FR
       - 23-0075-DE
+      - 23-0077-JP
       - 23-0081-CH
       - 23-0083-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMDI4MjZjMC04YWQzLTQ0MTctODg0My02ZGEwZjVjODBjZmU@gw.liangyuandianwan.com35604#05-0000-CN
       - 23-0100-NL
@@ -298,12 +298,13 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0007-US
+      - 05-0007-PL
       - 05-0137-FR
       - 06-0027-CN
       - 06-0037-LT
       - 06-0057-VN
       - 23-0067-AT
+      - 23-0077-JP
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -311,7 +312,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 05-0018-RELAY
-      - 06-0038-SG
       - 06-0058-VN
   - name: 测速9分组
     type: url-test
