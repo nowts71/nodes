@@ -71,10 +71,10 @@ proxies:
   - {name: 06-0041-US, server: seginus.appagent.net, port: 28331, type: trojan, password: nzSaSa3SFaCNFDCjOCg8A39e53p8l2xaTFCOu7qZx2Z8px4CK3DXeZYAwRRS3zY66laOE, skip-cert-verify: true, udp: true}
   - {name: 06-0042-US, server: delight.appagent.net, port: 443, type: trojan, password: D0AASSpCKFjOBSwlwqylnOep8BDlgN3e3RY9S3Op2RaZZ58gID8yY3ej56CSuYacZz3EA, skip-cert-verify: true, udp: true}
   - {name: 06-0043-US, server: connect.appagent.net, port: 28333, type: trojan, password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D, skip-cert-verify: true, udp: true}
+  - {name: 06-0044-US, server: mintaka.appagent.net, port: 443, type: trojan, password: 4xS33pu88RaTF37ZxRjzAZc9zxe8OaYBX9CSO3p5SSxquFOFEySnDlCleCFA2DN3gaeDl, skip-cert-verify: true, udp: true}
   - {name: 06-0045-US, server: hanger.appagent.net, port: 28331, type: trojan, password: Z3aK0aZqwyNcz7S3l3ncNCODYxNFnA8SCOOSOZ3y3AX8xA4a0RZ3gxn39aqYAaBOyzR43acKOCzSX3S, skip-cert-verify: true, udp: true}
   - {name: 08-0117-NO, server: 185.213.23.226, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0118-CO, server: 154.223.16.212, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 08-0119-US, server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
   - {name: 08-0121-KR, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0122-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-0049-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb, udp: true}
@@ -126,10 +126,10 @@ proxy-groups:
       - 06-0041-US
       - 06-0042-US
       - 06-0043-US
+      - 06-0044-US
       - 06-0045-US
       - 08-0117-NO
       - 08-0118-CO
-      - 08-0119-US
       - 08-0121-KR
       - 08-0122-NL
       - 23-0049-AT
@@ -230,6 +230,7 @@ proxy-groups:
     proxies:
       - 05-0004-CN
       - 06-0034-NL
+      - 06-0044-US
       - 23-0054-AT
       - 23-0064-CH
       - 23-0084-AT
@@ -279,7 +280,6 @@ proxy-groups:
     proxies:
       - 06-0029-PL
       - 06-0039-US
-      - 08-0119-US
       - 23-0049-AT
   - name: 测速10分组
     type: url-test
